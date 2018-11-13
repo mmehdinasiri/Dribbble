@@ -1,0 +1,29 @@
+.header{
+    position: absolute;
+    z-index: 10;
+    padding: 30px 0;
+    border-bottom: 1px solid  rgba(255,255,255,0.3);
+}
+.navbar{
+    padding: 0;
+}
+.nav-link{
+    color: $white;
+    padding: 0 15px !important;
+}
+.menu__main .nav-link{
+    border-left: 1px solid  rgba(255,255,255,0.3);
+}
+.menu__main .navbar-nav .nav-item:last-child .nav-link{
+    border-left:unset;
+}
+.menu__social .ticket__item{
+    margin-top: -10px;
+    margin-right: 40px;
+}
+.menu__social .ticket__item__link{
+    padding: 10px 40px !important;
+    border-radius: 50px;
+    color: $darkPurple;
+    background-color: $white;
+}

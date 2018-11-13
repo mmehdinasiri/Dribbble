@@ -1,0 +1,22 @@
+.intro{
+    background-image: url('../images/hero-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $primaryColor;
+    height: 600px;
+    position: relative;
+}
+@media (max-width: 1615px){
+    .intro{
+        background-size: cover;
+    }
+}
+.itro__img{
+    position: absolute;
+    z-index: 15;
+    top: 40%;
+    right: 25%;
+    width: 509px;
+    height: 251px;
+}

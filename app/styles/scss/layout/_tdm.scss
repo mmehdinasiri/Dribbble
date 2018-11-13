@@ -1,0 +1,44 @@
+.tdm{
+    padding: 90px 0 50px;
+}
+.tdm__img{
+    width: 150px;
+    height: 196px;
+}
+.tdm__content{
+    position: relative;
+}
+.tdm__content__bigTitle{
+    font-size:100px !important;
+    text-align: left;
+    direction: ltr;
+    position: absolute;
+    left: -10px;
+    top: -35px;
+    font-family: "Gilroy-ExtraBold" !important;
+    font-size: 22px;
+    color: $lightPink;
+}
+.tdm__content__title{
+    color: $black;
+    font-size: 22px !important;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.tdm__content__headline{
+    color: $black;
+    margin-bottom: 10px;
+}
+.tdm__content__desc{
+    color: $black;
+}
+.tdm__video{
+    margin-top: 30px;
+}
+.tdm__video__link{
+    font-size: 18px !important;
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: $white;
+    background-color: $lightPink;
+}
