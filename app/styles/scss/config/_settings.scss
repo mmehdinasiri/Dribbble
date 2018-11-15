@@ -18,3 +18,20 @@ $gray : #b0b0b0;
 .relative{
     position: relative;
 }
+
+
+
+a {
+    text-decoration: none !important;
+  }
+  
+  /**
+   * Improve readability when focused and also mouse hovered in all browsers.
+   */
+  
+  a:active,
+  a:hover {
+    outline: 0;
+    text-decoration: none !important;
+  }
+  

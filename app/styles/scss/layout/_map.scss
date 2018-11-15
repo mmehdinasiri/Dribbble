@@ -1,0 +1,77 @@
+.map{
+    background-image: url('../images/location-pin/map.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $primaryColor;
+    height: 600px;
+    position: relative;
+}
+.map__location{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    background-color: $lighBlack;
+    color: $white;
+    text-align: right;
+    padding:24px;
+    width: 420px;
+    height: 265px;
+}
+.map__title{
+    font-size: 30px !important;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 25px;
+}
+.map__pin{
+    vertical-align: top;
+    padding-left: 10px;
+}
+.map__address,
+.map__joke{
+    display: inline-block;
+    font-size: 12px !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 25px;
+    letter-spacing: normal;
+    text-align: right;
+}
+.map__address{
+    margin-bottom: 30px;
+}
+.map__joke{
+    margin-bottom: 20px;
+}
+.map__location__overlay{
+    position: relative;
+}
+.map__location__overlay__img{
+    position: absolute;
+    left: 0;
+    top: -115px
+}
+.map__link{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+}
+.map__link__a{
+    border-radius: 25px;
+    background-color: $lightPink;
+    padding: 9px 40px;
+    color: $white;
+}
+.map__dribbble{
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    bottom: 15px;  
+}
