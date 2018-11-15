@@ -15,7 +15,7 @@
 }
 .provide__item__fig.Ario::after{
     content: '@ryhmario';
-    background-color: $darkPink;
+    background-color: $lightPink;
     color:  $lighBlack;
     display: block;
     font-family: Gilroy;
@@ -31,10 +31,10 @@
 
 .provide__item__fig.Kia::after{
     content: '@kiawisherman';
-    background-color: $darkPink;
+    background-color: $lightPink;
     color:  $lighBlack;
     display: block;
-    font-family: Gilroy;
+    font-family: Gilroy !important;
     font-size: 18px;
     font-weight: 500;
     padding: 0 5px;
