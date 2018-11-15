@@ -38,11 +38,23 @@
 }
 
 @font-face {
-  font-family: 'Gilroy-ExtraBold';
+  font-family: 'Gilroy';
   src: url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.eot');
   src: url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.eot') format('eot'), url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff2') format('woff2'), url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff') format('woff'), url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.ttf') format('ttf');
   font-weight: bold;
 }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-medium/Gilroy-Medium.eot');
+  src: url('../fonts/Gilroy-medium/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy-medium/Gilroy-Medium.woff2') format('woff2'),
+      url('../fonts/Gilroy-medium/Gilroy-Medium.woff') format('woff'),
+      url('../fonts/Gilroy-medium/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 
 /* Defined class for font-Fa */
 
@@ -54,7 +66,7 @@
 }
 
 .font-fa-sans {
-  font-family: "Gilroy-ExtraBold" !important;
+  font-family: "Gilroy" !important;
   font-style: normal;
   font-weight: normal;
 }

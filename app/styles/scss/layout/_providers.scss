@@ -1,5 +1,69 @@
 .providers{
     background-color: $lightGray;
-    height: 500px;
-    padding: 60px 0;
+    padding: 60px 0 90px;
+}
+.providers__header{
+    font-size: 30px !important;
+    font-weight: 700;
+    color: $lighBlack;
+    margin-bottom: 60px;
+}
+.provide__item__fig__img{
+    position: relative;
+    display: block;
+    margin: 0 auto 20px;
+}
+.provide__item__fig.Ario::after{
+    content: '@ryhmario';
+    background-color: $darkPink;
+    color:  $lighBlack;
+    display: block;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 5px;
+    position: absolute;
+    bottom: 120px;
+    left: 75px;
+    z-index: 1000;
+    direction: ltr;
+}
+
+.provide__item__fig.Kia::after{
+    content: '@kiawisherman';
+    background-color: $darkPink;
+    color:  $lighBlack;
+    display: block;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 5px;
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+    z-index: 1000;
+    direction: ltr;
+}
+.provide__item__title{
+    margin-right: 30px;
+}
+.provide__item__title__name{
+    display: inline;
+    color: $white;
+    background-color: $lighBlack;
+    font-weight: bold;
+    font-size: 25px !important;
+    padding: 5px;
+    line-height: 50px;
+}
+.provide__item__title__desc{
+    display: inline-block;
+    color: $white;
+    background-color: $lighBlack;
+    font-weight: 300;
+    font-size: 20px !important;
+    padding: 5px;
+}
+.margin-t-100{
+    margin-top: 100px
 }
