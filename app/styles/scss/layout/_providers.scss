@@ -67,3 +67,27 @@
 .margin-t-100{
     margin-top: 100px
 }
+
+.small-size{
+    .provide__item__fig__img{
+        margin-bottom: 15px;
+    }
+    .provide__item__fig.Ario::after,
+    .provide__item__fig.Kia::after{
+        font-size: 16px !important;
+        bottom: 100px;
+    }
+    .provide__item__fig.Ario::after{
+        left: 50px;
+    }
+    .provide__item__fig.Kia::after{
+        left: 60px;
+    }
+    .provide__item__title__name{
+        font-size: 20px !important;
+        line-height: 40px;
+    }
+    .provide__item__title__desc{
+        font-size: 16px !important;
+    }
+}
