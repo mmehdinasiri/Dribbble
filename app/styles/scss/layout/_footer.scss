@@ -5,7 +5,6 @@
 }
 .footer__subBar__title{
     color: $white;
-    text-align: left;
     margin: 0;
     font-family: "Gilroy" !important;
     font-weight: 400;
@@ -13,14 +12,22 @@
 }
 
 .footer__socialCopyright{
-     background-color: $lighBlack;
+    background-color: $lighBlack;
+    padding: 30PX 0;
 }
 .footer__socialCopyright__title{
     color: $white;
-    text-align: right;
     margin: 0;
     font-family: "Gilroy" !important;
     font-weight: 400;
     font-size: 12px !important;
     direction: ltr;
+}
+.footer__socialCopyright__wrapper__item{
+    display: inline-block;
+    margin-right: 25px;
+}
+.footer__socialCopyright__wrapper__link{
+    width: 21px;
+    height: 21px;
 }
