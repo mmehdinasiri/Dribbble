@@ -1,0 +1,77 @@
+.game{
+    background-image: url('../images/gameBG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1008px;
+    position: relative;
+    padding: 60px 0;
+
+}
+
+.game__header{
+    color: $white;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.game__whyUs {
+    padding: 25px 60px 25px 40px;
+    position: absolute;
+    bottom: 60px;
+    right: 50%;
+    transform: translateX(50%);
+    // margin-top: 680px;
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .game__whyUs__details{
+    text-align: right;
+  }
+  .game__whyUs__details__title{
+    color: $lighBlack;
+    font-size: 14px  !important;
+    font-weight: bold;
+    line-height: 28px;
+  }
+  .game__whyUs__details__desc{
+    color: $lighBlack;
+    font-size: 14px  !important;
+    font-weight: 400;
+    line-height: 28px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .game__whyUs__details__desc::before{
+    content: "";
+    display: inline-block;
+    margin-left: 6px;
+    width: 13px;
+    height: 9px;
+    background: url(../images/mask.png) no-repeat 0 0;
+    background-size: 100%;
+    position: absolute;
+    right: -20px;
+    bottom: 10px;
+  }
+  .game__whyUs__byeTicket{
+    display: inline-block;
+    border-radius: 25px;
+    background-color: $lightPink;
+    color: $white;
+    padding: 10px 40px;
+    font-size: 14px !important;;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    float: left;
+  }
+  .isGilroy{
+    font-family: "Gilroy" !important;
+  }
