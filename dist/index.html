@@ -1,27 +1,432 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Website Title</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="lib/bootstrap-v4-rtl-4/dist/css/bootstrap-rtl.min.css">
-        <link rel="stylesheet" href="styles/styles.css">
-    </head>
-    <body dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Website Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styles/font-fa.css">
+    <link rel="stylesheet" href="lib/bootstrap-4/bootstrap-v4-rtl-4/dist/css/bootstrap-rtl.min.css">
+    <!-- <link rel="stylesheet" href="lib/bootstrap-4/bootstrap-4.1.3/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body dir="rtl">
+    <div class="container">
+        <div class="row relative">
+            <header class="header w-100">
+                <nav class="navbar navbar-expand-lg ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                        <div class="menu__main">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#tdm">درباره دورهمی<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#providers">سخنرانان</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#schedule">زمان‌بندی</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#map">محل برگزاری</a>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                        <div class="menu__social">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <img src="images/dribbble.svg" alt="">
+                                    </a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <img src="images/twitter.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <img src="images/insta.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                            <img src="images/telegram.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item ticket__item">
+                                    <a class="nav-link  ticket__item__link" href="https://evand.com/events/tehran-dribbble-meetup">خرید بلیط</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <section id="intro" class="intro">
+            <img class="itro__img" src="images/TYPO.png" alt="">
+        </section>
+    </div>
+    <div class="container">
+        <section class="tdm" id="tdm">
+            <div class="row">
+                <div class="col-3 p-0">
+                    <div class="text-center">
+                        <img class="tdm__img" src="images/Dribbble-Meetup-Logo.svg" style="width:150px;height:196px;" alt="">
+                    </div>
+                </div>
+                <div class="col-9 p-0">
+                    <div class="tdm__content text-right">
+                        <h1 class="tdm__content__bigTitle">#TDM</h1>
+                        <h2 class="tdm__content__title">دورهمی دریبببل تهران</h2>
+                        <p class="tdm__content__headline">یک رویداد تخصصی درباره دیزاین فضای دیجیتال است.</p>
+                        <p class="text-justify tdm__content__desc">دریبببل بهانه‌ای است، برای برگزاری رویدادی که دیزاینر‌های دیجیتال را گرد هم بیاورد تا بتوانیم فضای مناسبی جهت برقراری ارتباط متقابل و اشتراک تجربه‌ها بسازیم، همچنین یک روز شاد را کنار هم را رقم بزنیم، ما به دنبال رفع شکاف ارتباطی و علمی بین دیزاینرها هستیم، تا شاید سهم خود را در قبال جامعه دیزاین دیجیتال (رابط‌کاربری، تجربه‌کاربری، ایلاستریشن، آیکن دیزاین، لوگو دیزاین، موشن دیزاین و…) ادا کرده باشیم!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center tdm__video">
+                        <a class="tdm__video__link" href="">مشاهده ویدیو معرفی</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <section class="providers" id="providers">
         <div class="container">
             <div class="row">
-                <head>
-                    salam
-                </head>
+                <div class="col">
+                    <h2 class="providers__header text-center">ارائه دهندگان</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <div class="provide__item text-center">
+                            <figure class="provide__item__fig Ario">
+                                <img class="provide__item__fig__img" src="images/ario/Ario.png" alt="">
+                            </figure>
+                        
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                            <div>
+                                <p class="provide__item__title__desc">طراح در اسنپ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="provide__item text-center">
+                        <figure class="provide__item__fig Kia">
+                            <img class="provide__item__fig__img" src="images/kia/Kia.png" alt="">
+                        </figure>
+                        
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
+                            <div>
+                                <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="provide__item text-center">
+                        <figure class="provide__item__fig Ario">
+                            <img class="provide__item__fig__img" src="images/ario/Ario.png" alt="">
+                        </figure>
+                        
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                            <div>
+                                <p class="provide__item__title__desc">طراح در اسنپ</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center margin-t-100">
+                <div class="col-4">
+                    <div class="provide__item text-center">
+                        <figure class="provide__item__fig Ario">
+                            <img class="provide__item__fig__img" src="images/ario/Ario.png" alt="">
+                        </figure>
+                        
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                            <div>
+                                <p class="provide__item__title__desc">طراح در اسنپ</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="provide__item text-center">
+                        <figure class="provide__item__fig Kia">
+                            <img class="provide__item__fig__img" src="images/kia/Kia.png" alt="">
+                        </figure>
+                        
+                            <div class="provide__item__title text-right">
+                                <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
+                                <div>
+                                    <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Add your site or application content here -->
-        <p>Content</p>
-        
-        <script src="lib/bootstrap-v4-rtl-4/dist/js/bootstrap.min.js"></script>
-        <script src="scripts/app.js"></script>
-    </body>
+    </section>
+    <section class="panelServices" id="panelServices">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <h2 class="panelServices__header text-center">پنل بررسی دیزاین سرویس‌های موفق ایرانی</h2>
+                <p  class="panelServices__desc text-justify">
+                    این روزها بازار راه‌اندازی کسب‌وکار نوپا (استارتاپ) مخصوصا در حوزه وب و موبایل بسیار داغ شده و به همان نسبت هم مشکلاتی در پیش روی استارتاپ‌ها بوجود آمده است. فارغ از تیم فنی و اجرایی و همچنین موضوعات بیزینسی هر کسب و کاری، موضوعات حقوقی هم دارای اهمیت بالایی هستند که معمولا نادیده گرفته می‌شود و زمانی که کسب‌وکار دچار مشکلی می‌شود یاد این مسئله می‌افتیم. 
+                    <br>
+                    مواردی از جمله شخصیت حقوقی، نحوه ثبت شرکت، قراردادهای بین افراد و حتی سهام‌داران، نحوه تدوین این قبیل قراردادها و تقسیم سهام و همچنین مالکیت‌های فکری و معنوی و کپی‌رایت و مواردی از این قبیل موضوعاتی هستند که در این پنل آرش برهمند و مهمانان متخصص ما در این زمینه به آنها خواهند پرداخت.
+                </p>
+            </div>
+            </div>
+                <div class="row justify-content-center small-size">
+                        <div class="col-3">
+                            <div class="provide__item text-center">
+                                <figure class="provide__item__fig Kia">
+                                        <img  class="provide__item__fig__img"   src="images/kia/kia-small.png"
+                                                                                srcset="images/kia/kia-small@2x.png 2x,
+                                                                                        images/kia/kia-small@3x.png 3x">
+                                </figure>
+                                
+                                <div class="provide__item__title text-right">
+                                    <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
+                                    <div>
+                                        <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    <div class="col-3">
+                        <div class="provide__item text-center">
+                                <figure class="provide__item__fig Ario">
+                                    <img  class="provide__item__fig__img"   src="images/ario/ario-small.png"
+                                                                            srcset="images/ario/ario-small@2x.png 2x,
+                                                                                    images/ario/ario-small@3x.png 3x">
+                                </figure>
+                            
+                            <div class="provide__item__title text-right">
+                                <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                                <div>
+                                    <p class="provide__item__title__desc">طراح در اسنپ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="provide__item text-center">
+                            <figure class="provide__item__fig Kia">
+                                    <img  class="provide__item__fig__img"   src="images/kia/kia-small.png"
+                                                                            srcset="images/kia/kia-small@2x.png 2x,
+                                                                                    images/kia/kia-small@3x.png 3x">
+                            </figure>
+                            
+                            <div class="provide__item__title text-right">
+                                <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
+                                <div>
+                                    <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="provide__item text-center">
+                            <figure class="provide__item__fig Ario">
+                                    <img  class="provide__item__fig__img"   src="images/ario/ario-small.png"
+                                                                            srcset="images/ario/ario-small@2x.png 2x,
+                                                                                    images/ario/ario-small@3x.png 3x">
+                            </figure>
+                            
+                            <div class="provide__item__title text-right">
+                                <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                                <div>
+                                    <p class="provide__item__title__desc">طراح در اسنپ</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+        </div>
+    </section>
+    <section class="schedule" id="schedule">
+        <div class="schedule__overlay">
+            <img class="schedule__overlay__img" src="images/dribbble-overlay/dribbble-overlay.png" alt="" 
+            srcset="images/dribbble-overlay/dribbble-overlay@2x.png 2x,
+            images/dribbble-overlay/dribbble-overlay@3x.png 3x">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="schedule__header text-center">زمان‌بندی رویداد</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-right">
+                    <div class="schedule__starBox ">
+                        <div>
+                            <span class="schedule__starBox__desc">آماده‌سازی و گرم‌کردن، صبحانه</span>
+                            <span class="schedule__starBox__time">9-8</span>
+                        </div>
+                        <div>
+                            <span class="schedule__starBox__desc">ترکیب‌بندی و سوت شروع</span>
+                            <span class="schedule__starBox__time" dir="ltr">9-9:30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="schedule__box text-right min-height-273">
+                        <h2 class="schedule__box__part">01</h2>
+                        <p class="schedule__box__time" dir="ltr">9:30-10</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">دانیال صابونچی</span><span class="font-12 is-gray">/ بهترین دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">دیزاین را چگونه معرفی کنیم</p>
+                    </div>
+                    <div class="schedule__box text-right min-height-200">
+                        <p  class="schedule__box__time" dir="ltr">10-10:30</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">سروش رضایی</span><span class="font-12 is-gray">/ انیماتور دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">اکبر چگونه دیزاینر شد؟</p>
+                    </div>
+                    <div class="schedule__breackPoint">
+                        <span class="schedule__breackPoint__desc">نیمه استراحت  /</span>
+                        <span class="schedule__breackPoint__time" dir="ltr">10:30-11:15</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="schedule__box text-right min-height-273">
+                        <h2 class="schedule__box__part">02</h2>
+                        <p class="schedule__box__time" dir="ltr">11:15-12:15</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">پنل: </span>
+                            <span class="font-12">
+                                کیارش آمالی‌وند، جعفر هنان، رضا کلهر
+                                <br/>
+                                عباس کیارستمی، عباس قادری
+                            </span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">دیزاین سیستم</p>
+                    </div>
+                    <div class="schedule__box text-right min-height-200">
+                        <p  class="schedule__box__time" dir="ltr">12:15-12:45</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">عباس جدیدی</span><span class="font-12 is-gray">/ سلفی‌ترین دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">سلفی با بزرگان، یک قدم به جلو</p>
+                    </div>
+                    <div class="schedule__breackPoint">
+                        <span class="schedule__breackPoint__desc">ناهار  /</span>
+                        <span class="schedule__breackPoint__time" dir="ltr">12:45-13:45</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="schedule__box text-right min-height-273">
+                        <h2 class="schedule__box__part">03</h2>
+                        <p class="schedule__box__time" dir="ltr">13:45-14:15</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">آریو عبدی</span><span class="font-12 is-gray">/ اسکل‌ترین دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">تصویرسازی به شکل نوین</p>
+                    </div>
+                    <div class="schedule__box text-right min-height-200">
+                        <p  class="schedule__box__time" dir="ltr">14:15-14:45</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">محمد غنایی</span><span class="font-12 is-gray">/ گزارشگرترین دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">ایران، استرالیا؛ سلام فرانسه</p>
+                    </div>
+                    <div class="schedule__box text-right">
+                        <p  class="schedule__box__time" dir="ltr">14:15-14:45</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">پنل: </span>
+                            <span class="font-12">
+                                کیارش آمالی‌وند، جعفر هنان، رضا کلهر
+                                <br/>
+                                عباس کیارستمی، عباس قادری
+                            </span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">ایران، استرالیا؛ سلام فرانسه</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map" id="map">
+        <div class="map__location">
+            <h2 class="map__title">محل برگزاری</h2>
+            <div>
+                <img class="map__pin" src="images/pin/pin.png"
+                srcset="images/pin/pin@2x.png 2x,
+                images/pin/pin@3x.png 3x">
+                <div class="map__address">
+                    ایران، تهران، خیابان شریعتی، پایین تر از پل سیدخندان
+                    <br/>
+                    وزارت ارتباطات و فن آوری اطلاعات
+                    <br/>
+                    مرکز همایش‌های شهید قندی
+                </div>
+            </div>
+            <div>
+                <img class="map__pin"
+                src="images/parking/parking.png"
+                srcset="images/parking/parking@2x.png 2x,
+                        images/parking/parking@3x.png 3x">
+                <div class="map__joke">
+                    نگران جا پارک نباشید!
+                </div>
+            </div>
+            <div class="map__location__overlay">
+                <img class="map__location__overlay__img" src="images/location-pin-overlay/location-pin-overlay.png"
+                srcset="images/location-pin-overlay/location-pin-overlay@2x.png 2x,
+                images/location-pin-overlay/location-pin-overlay@3x.png 3x"
+                >
+            </div>
+        </div>
+        <div class="map__link">
+            <a class="map__link__a" href="https://goo.gl/maps/tdbAqXYyGuT2">مسیریابی بر روی نقشه</a>
+        </div>
+        <div class="map__dribbble">
+            <img class="map__dribbble__img" 
+                src="images/dribbble-logo/dribbble-logo.png"
+                srcset="images/dribbble-logo/dribbble-logo@2x.png 2x,
+                        images/dribbble-logo/dribbble-logo@3x.png 3x">
+        </div>
+    </section>
+
+
+
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap-4/bootstrap-v4-rtl-4/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="lib/bootstrap-4/bootstrap-4.1.3/js/bootstrap.min.js"></script> -->
+    <!-- <script src="scripts/app.js"></script> -->
+</body>
+
 </html>

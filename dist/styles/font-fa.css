@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/IranianSans/IRANSans-Medium-web.eot');
+  src: url('../fonts/IranianSans/IRANSans-Medium-web.eot?#iefix') format('embedded-opentype'), url('../fonts/IranianSans/IRANSans-Medium-web.woff2') format('woff2'), url('../fonts/IranianSans/IRANSans-Medium-web.woff') format('woff'), url('../fonts/IranianSans/IRANSans-Medium-web.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/IranianSans/IRANSans-Light-web.eot');
+  src: url('../fonts/IranianSans/IRANSans-Light-web.eot?#iefix') format('embedded-opentype'), url('../fonts/IranianSans/IRANSans-Light-web.woff2') format('woff2'), url('../fonts/IranianSans/IRANSans-Light-web.woff') format('woff'), url('../fonts/IranianSans/IRANSans-Light-web.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/IranianSans/IRANSans-UltraLight-web.eot');
+  src: url('../fonts/IranianSans/IRANSans-UltraLight-web.eot?#iefix') format('eot'), url('../fonts/IranianSans/IRANSans-UltraLight-web.woff2') format('woff2'), url('../fonts/IranianSans/IRANSans-UltraLight-web.woff') format('woff'), url('../fonts/IranianSans/IRANSans-UltraLight-web.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/IranianSans/IRANSans-web.eot');
+  src: url('../fonts/IranianSans/IRANSans-web.eot?#iefix') format('embedded-opentype'), url('../fonts/IranianSans/IRANSans-web.woff2') format('woff2'), url('../fonts/IranianSans/IRANSans-web.woff') format('woff'), url('../fonts/IranianSans/IRANSans-web.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  src: url('../fonts/IranianSans/IRANSans-Bold-web.eot');
+  src: url('../fonts/IranianSans/IRANSans-Bold-web.eot?#iefix') format('eot'), url('../fonts/IranianSans/IRANSans-Bold-web.woff2') format('woff2'), url('../fonts/IranianSans/IRANSans-Bold-web.woff') format('woff'), url('../fonts/IranianSans/IRANSans-Bold-web.ttf') format('ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.eot');
+  src: url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.eot') format('eot'), url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff2') format('woff2'), url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff') format('woff'), url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.ttf') format('ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-medium/Gilroy-Medium.eot');
+  src: url('../fonts/Gilroy-medium/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy-medium/Gilroy-Medium.woff2') format('woff2'),
+      url('../fonts/Gilroy-medium/Gilroy-Medium.woff') format('woff'),
+      url('../fonts/Gilroy-medium/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/* Defined class for font-Fa */
+
+.font-fa-sans {
+  font-family: "IRANSans" !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8;
+}
+
+.font-fa-sans {
+  font-family: "Gilroy" !important;
+  font-style: normal;
+  font-weight: normal;
+}
