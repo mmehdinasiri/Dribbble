@@ -13,6 +13,9 @@
     .itro__img{
         right: 5%;
     }
+    .map__location{
+        right: 5%
+    }
  }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -20,15 +23,48 @@
     .itro__img{
         right: 10%;
     }
+    .map__location{
+        right: 10%
+    }
   }
 
 @media (min-width: 1400px)and(max-width:1599px) {
     .itro__img{
         right: 15%;
     }
+    .map__location{
+        right: 15%
+    }
   }
 @media (min-width: 1600px) {
     .itro__img{
         right: 20%;
     }
+    .map__location{
+        right: 20%
+    }
 }
+
+
+
+
+
+
+@media (max-width: 992px) { 
+    .map__location{
+        text-align: center;
+        top: 5%;
+        right: 50%;
+        transform: translateX(50%);
+        height: 200px;
+    }
+    .map__title{
+        margin-bottom: 15PX;
+    }
+    .map__address, .map__joke{
+        margin-bottom: 15PX;
+    }
+    .map__location__overlay__img{
+        display: none
+    }        
+ }
