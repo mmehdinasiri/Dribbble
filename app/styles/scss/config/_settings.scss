@@ -11,7 +11,9 @@ $charcoal :#2d2d2d;
 
 
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 
 // helper class
@@ -23,8 +25,11 @@ $charcoal :#2d2d2d;
 
 a {
     text-decoration: none !important;
+    transition: color 0.2s ease-in-out;
   }
-  
+a:hover{
+  color: #35168d;
+}
   /**
    * Improve readability when focused and also mouse hovered in all browsers.
    */

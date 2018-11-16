@@ -63,6 +63,48 @@
 
 
 @media (max-width: 992px) { 
+    .header{
+        border-bottom: none;
+    }
+    .navbar-collapse {
+        background-color: rgba(8, 8, 8, 0.7);
+        padding: 20px;
+        position: relative;
+        z-index: 20;
+    }
+    .menu__main{
+        text-align: center !important;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    .nav-link{
+        border-left: unset !important;
+        color: $white !important;
+    }
+    .ticket__item__link.mobile{
+        display: block;
+    }
+    
+    .ticket__item.desktop{
+        display: none;
+    }
+
+    .menu__social .navbar-nav{
+        margin: 20px 0;
+        flex-direction: row !important;;
+        justify-content: center !important;;
+    }
+
+    .tdm{
+        padding: 60px 0;
+    }
+    .tdm__img{
+        margin-bottom: 30px;
+    }
+    .tdm__content__bigTitle{
+        font-size: 75px !important;
+    }
     .map__location{
         text-align: center;
         top: 5%;
@@ -79,4 +121,13 @@
     .map__location__overlay__img{
         display: none
     }        
+ }
+
+ 
+@media (max-width: 575px) { 
+    .tdm__content__bigTitle{
+        font-size: 50px !important;
+        left: 10px;
+        top: -15px;
+    }
  }
