@@ -1,9 +1,9 @@
 .map{
-    background-image: url('../images/location-pin/map.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: $primaryColor;
+    // background-image: url('../images/location-pin/map.jpg');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-color: $primaryColor;
     height: 600px;
     position: relative;
 }
@@ -54,7 +54,7 @@
 .map__location__overlay__img{
     position: absolute;
     left: 0;
-    top: -115px
+    top: -70px
 }
 .map__link{
     text-align: center;
