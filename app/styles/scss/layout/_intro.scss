@@ -17,27 +17,7 @@
     position: absolute;
     z-index: 15;
     top: 40%;
-    right: 20%;
+    right: 0%;
     width: 509px;
     height: 251px;
-}
-@media  (min-width: 1415px) and (max-width: 1615px){
-    .itro__img{
-        right: 15%;
-    }
-}
-@media  (min-width: 1200px) and (max-width: 1414px){
-    .itro__img{
-        right: 10%;
-    }
-}
-@media  (min-width: 992px) and (max-width: 1199px){
-    .itro__img{
-        right: 5%;
-    }
-}
-@media  (max-width: 991px){
-    .itro__img{
-        right: 2%;
-    }
 }
