@@ -22,14 +22,14 @@
     <link rel="stylesheet" href="styles/font-fa.css">
     <link rel="stylesheet" href="lib/bootstrap-4/bootstrap-v4-rtl-4/dist/css/bootstrap-rtl.min.css">
     <!-- <link rel="stylesheet" href="lib/bootstrap-4/bootstrap-4.1.3/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="styles/styles.css?v=1">
+    <link rel="stylesheet" href="styles/styles.css?v=2">
 </head>
 
 <body dir="rtl">
     <div class="container">
         <div class="row relative">
             <header class="header w-100">
-                <nav class="navbar navbar-expand-lg ">
+                <nav class="navbar navbar-expand-lg navbar-light ">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -44,6 +44,9 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#schedule">زمان‌بندی</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#sponsor">حامیان</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#map">محل برگزاری</a>
@@ -72,10 +75,11 @@
                                             <img src="images/telegram.svg" alt="">
                                     </a>
                                 </li>
-                                <li class="nav-item ticket__item">
-                                    <a class="nav-link  ticket__item__link" href="https://evand.com/events/tehran-dribbble-meetup">خرید بلیط</a>
+                                <li class="nav-item ticket__item desktop">
+                                    <a class="nav-link  ticket__item__link " href="https://evand.com/events/tehran-dribbble-meetup">خرید بلیط</a>
                                 </li>
                             </ul>
+                            <a class="nav-link  ticket__item__link mobile" href="https://evand.com/events/tehran-dribbble-meetup">خرید بلیط</a>
                         </div>
                     </div>
                 </nav>
@@ -84,18 +88,18 @@
     </div>
     <div class="container-fluid p-0">
         <section id="intro" class="intro">
-            <img class="itro__img" src="images/TYPO.svg" alt="">
+            <img class="itro__img" src="images/TYPO.png" alt="">
         </section>
     </div>
+    <section class="tdm" id="tdm">
     <div class="container">
-        <section class="tdm" id="tdm">
             <div class="row">
-                <div class="col-3 p-0">
+                <div class="col-12 col-md-3 p-0">
                     <div class="text-center">
                         <img class="tdm__img" src="images/Dribbble-Meetup-Logo.svg" style="width:150px;height:196px;" alt="">
                     </div>
                 </div>
-                <div class="col-9 p-0">
+                <div class="col-12 col-md-9 p-0">
                     <div class="tdm__content text-right">
                         <h1 class="tdm__content__bigTitle">#TDM</h1>
                         <h2 class="tdm__content__title">دورهمی دریبببل تهران</h2>
@@ -109,9 +113,9 @@
                     </div>
                 </div>
             </div>
-        </section>
-        
-    </div>
+            
+        </div>
+    </section>
     <section class="providers" id="providers">
         <div class="container">
             <div class="row">
@@ -120,7 +124,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="provide__item text-center">
                             <figure class="provide__item__fig Ario">
                                 <img class="provide__item__fig__img" src="images/ario/Ario.png" alt="">
@@ -134,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="provide__item text-center">
                         <figure class="provide__item__fig Kia">
                             <img class="provide__item__fig__img" src="images/kia/Kia.png" alt="">
@@ -149,7 +153,7 @@
                         
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="provide__item text-center">
                         <figure class="provide__item__fig Ario">
                             <img class="provide__item__fig__img" src="images/ario/Ario.png" alt="">
@@ -167,7 +171,7 @@
             </div>
 
             <div class="row justify-content-center margin-t-100">
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="provide__item text-center">
                         <figure class="provide__item__fig Ario">
                             <img class="provide__item__fig__img" src="images/ario/Ario.png" alt="">
@@ -182,7 +186,7 @@
                         
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="provide__item text-center">
                         <figure class="provide__item__fig Kia">
                             <img class="provide__item__fig__img" src="images/kia/Kia.png" alt="">
@@ -212,6 +216,316 @@
                 </p>
             </div>
             </div>
+            <div class="row justify-content-center small-size">
+                <div class="col-sm-6 col-md-3">
+                    <div class="provide__item text-center">
+                        <figure class="provide__item__fig Kia">
+                                <img  class="provide__item__fig__img"   src="images/kia/kia-small.png"
+                                                                        srcset="images/kia/kia-small@2x.png 2x,
+                                                                                images/kia/kia-small@3x.png 3x">
+                        </figure>
+                        
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
+                            <div>
+                                <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="provide__item text-center">
+                            <figure class="provide__item__fig Ario">
+                                <img  class="provide__item__fig__img"   src="images/ario/ario-small.png"
+                                                                        srcset="images/ario/ario-small@2x.png 2x,
+                                                                                images/ario/ario-small@3x.png 3x">
+                            </figure>
+                        
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                            <div>
+                                <p class="provide__item__title__desc">طراح در اسنپ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="provide__item text-center">
+                        <figure class="provide__item__fig Kia">
+                                <img  class="provide__item__fig__img"   src="images/kia/kia-small.png"
+                                                                        srcset="images/kia/kia-small@2x.png 2x,
+                                                                                images/kia/kia-small@3x.png 3x">
+                        </figure>
+                        
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
+                            <div>
+                                <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="provide__item text-center">
+                        <figure class="provide__item__fig Ario">
+                                <img  class="provide__item__fig__img"   src="images/ario/ario-small.png"
+                                                                        srcset="images/ario/ario-small@2x.png 2x,
+                                                                                images/ario/ario-small@3x.png 3x">
+                        </figure>
+                        
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                            <div>
+                                <p class="provide__item__title__desc">طراح در اسنپ</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="schedule" id="schedule">
+        <div class="schedule__overlay">
+            <img class="schedule__overlay__img" src="images/dribbble-overlay/dribbble-overlay.png" alt="" 
+            srcset="images/dribbble-overlay/dribbble-overlay@2x.png 2x,
+            images/dribbble-overlay/dribbble-overlay@3x.png 3x">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="schedule__header text-center">زمان‌بندی رویداد</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-right">
+                    <div class="schedule__starBox ">
+                        <div>
+                            <span class="schedule__starBox__desc">آماده‌سازی و گرم‌کردن، صبحانه</span>
+                            <span class="schedule__starBox__time">9-8</span>
+                        </div>
+                        <div>
+                            <span class="schedule__starBox__desc">ترکیب‌بندی و سوت شروع</span>
+                            <span class="schedule__starBox__time" dir="ltr">9-9:30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="schedule__box text-right min-height-273">
+                        <h2 class="schedule__box__part">01</h2>
+                        <p class="schedule__box__time" dir="ltr">9:30-10</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">دانیال صابونچی</span><span class="font-12 is-gray">/ بهترین دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">دیزاین را چگونه معرفی کنیم</p>
+                    </div>
+                    <div class="schedule__box text-right min-height-200">
+                        <p  class="schedule__box__time" dir="ltr">10-10:30</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">سروش رضایی</span><span class="font-12 is-gray">/ انیماتور دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">اکبر چگونه دیزاینر شد؟</p>
+                    </div>
+                    <div class="schedule__breackPoint">
+                        <span class="schedule__breackPoint__desc">نیمه استراحت  /</span>
+                        <span class="schedule__breackPoint__time" dir="ltr">10:30-11:15</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="schedule__box text-right min-height-273">
+                        <h2 class="schedule__box__part">02</h2>
+                        <p class="schedule__box__time" dir="ltr">11:15-12:15</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">پنل: </span>
+                            <span class="font-12">
+                                کیارش آمالی‌وند، جعفر هنان، رضا کلهر
+                                <br/>
+                                عباس کیارستمی، عباس قادری
+                            </span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">دیزاین سیستم</p>
+                    </div>
+                    <div class="schedule__box text-right min-height-200">
+                        <p  class="schedule__box__time" dir="ltr">12:15-12:45</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">عباس جدیدی</span><span class="font-12 is-gray">/ سلفی‌ترین دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">سلفی با بزرگان، یک قدم به جلو</p>
+                    </div>
+                    <div class="schedule__breackPoint">
+                        <span class="schedule__breackPoint__desc">ناهار  /</span>
+                        <span class="schedule__breackPoint__time" dir="ltr">12:45-13:45</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="schedule__box text-right min-height-273">
+                        <h2 class="schedule__box__part">03</h2>
+                        <p class="schedule__box__time" dir="ltr">13:45-14:15</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">آریو عبدی</span><span class="font-12 is-gray">/ اسکل‌ترین دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">تصویرسازی به شکل نوین</p>
+                    </div>
+                    <div class="schedule__box text-right min-height-200">
+                        <p  class="schedule__box__time" dir="ltr">14:15-14:45</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">محمد غنایی</span><span class="font-12 is-gray">/ گزارشگرترین دیزاینر دنیا</span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">ایران، استرالیا؛ سلام فرانسه</p>
+                    </div>
+                    <div class="schedule__box text-right">
+                        <p  class="schedule__box__time" dir="ltr">14:15-14:45</p>
+                        <div class="margin-top-bottom-4-16">
+                            <span class="is-red font-12">پنل: </span>
+                            <span class="font-12">
+                                کیارش آمالی‌وند، جعفر هنان، رضا کلهر
+                                <br/>
+                                عباس کیارستمی، عباس قادری
+                            </span>
+                        </div>
+                        <p class="font-12 is-gray is-bold">ایران، استرالیا؛ سلام فرانسه</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="game text-center" id="game">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="game__header text-center">پایه هستی بازی رو شروع کنیم؟</h2>
+                </div>
+            </div>
+        </div>
+            <div class="game__whyUs">
+                <div class="row">
+                    <div class="col-9">
+                        <div class="game__whyUs__details">
+                            <h4 class="game__whyUs__details__title">چرا شرکت کنم؟</h4>
+                            <p class="game__whyUs__details__desc">تجربه روزی شاد در کنار بهترین‌‌ها و استفاده از تجربیات آن‌ها.</p>
+                            <p class="game__whyUs__details__desc">تقویت مهارت‌های مورد نیاز جهت رقابت در <span class="isGilroy">Dribbble</span> و جامعه طراحی دیجیتال.</p>
+                            <p class="game__whyUs__details__desc">شبکه سازی و گپ و گفتگو با سایر طراحان دیجیتال.</p>
+                        </div>
+                    </div>
+                    <div class="col-3 align-self-end ">
+                        <a class="game__whyUs__byeTicket" href="https://evand.com/events/tehran-dribbble-meetup">خرید بلیط</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="sponsor" id="sponsor">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="sponsor__header text-center">حامیان بین‌المللی</h2>
+                    <h2 class="sponsor__header__en text-center">
+                        INTERNATIONAL
+                        <br>
+                        SPONSORS
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="sponsor__list__group">
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/dribbble-ball-icon.png"
+                            srcset="images/sponsor/dribbble-ball-icon@2x.png 2x,
+                                    images/sponsor/dribbble-ball-icon@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/abstarct.png"
+                            srcset="images/sponsor/abstarct@2x.png 2x,
+                                    images/sponsor/abstarct@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/zeplin.png"
+                            srcset="images/sponsor/zeplin@2x.png 2x,
+                                    images/sponsor/zeplin@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/icon.png"
+                            srcset="images/sponsor/icon@2x.png 2x,
+                                    images/sponsor/icon@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/logo.png"
+                            srcset="images/sponsor/logo@2x.png 2x,
+                                    images/sponsor/logo@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <ul class="sponsor__list__group">
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/sketch.png"
+                            srcset="images/sponsor/sketch@2x.png 2x,
+                                    images/sponsor/sketch@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/sympli.png"
+                            srcset="images/sponsor/sympli@2x.png 2x,
+                                    images/sponsor/sympli@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/avocode.png"
+                            srcset="images/sponsor/avocode@2x.png 2x,
+                                    images/sponsor/avocode@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/marvel.png"
+                            srcset="images/sponsor/marvel@2x.png 2x,
+                                    images/sponsor/marvel@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/cuberto.png"
+                            srcset="images/sponsor/cuberto@2x.png 2x,
+                                    images/sponsor/cuberto@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/uneo.png"
+                            srcset="images/sponsor/uneo@2x.png 2x,
+                                    images/sponsor/uneo@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="sponsor__sponsoring">
+                        <h2 class="sponsor__sponsoring__title">در کنار بهترین‌ها دیده شوید…</h2>
+                        <p class="sponsor__sponsoring__desc">جهت حمایت از اولین دورهمی دریبل ایران و جامعه طراحان دیجیتال با ما در ارتباط باشید.</p>
+                        <p class="sponsor__sponsoring__desc isEN">sponsorship@tehrandm.com</p>
+                        <a class="sponsor__sponsoring__link" href="mailto:sponsorship@tehrandm.com">ما هم هستیم</a>
+                        <img src="images/throw/throw-04.png"
+                        srcset="images/throw/throw-04@2x.png 2x,
+                                images/throw/throw-04@3x.png 3x"
+                        class="sponsor__sponsoring__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="holdingTeam" id="holdingTem">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="holdingTeam__header text-center">تیم برگزاری اولین دورهمی دریبببل ایران در تهران</h2>
+                    </div>
+                </div>
                 <div class="row justify-content-center small-size">
                         <div class="col-3">
                             <div class="provide__item text-center">
@@ -282,113 +596,7 @@
                     </div>
                     
                 </div>
-        </div>
-    </section>
-    <section class="schedule" id="schedule">
-        <div class="schedule__overlay">
-            <img class="schedule__overlay__img" src="images/dribbble-overlay/dribbble-overlay.png" alt="" 
-            srcset="images/dribbble-overlay/dribbble-overlay@2x.png 2x,
-            images/dribbble-overlay/dribbble-overlay@3x.png 3x">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="schedule__header text-center">زمان‌بندی رویداد</h2>
-                </div>
             </div>
-            <div class="row">
-                <div class="col text-right">
-                    <div class="schedule__starBox ">
-                        <div>
-                            <span class="schedule__starBox__desc">آماده‌سازی و گرم‌کردن، صبحانه</span>
-                            <span class="schedule__starBox__time">9-8</span>
-                        </div>
-                        <div>
-                            <span class="schedule__starBox__desc">ترکیب‌بندی و سوت شروع</span>
-                            <span class="schedule__starBox__time" dir="ltr">9-9:30</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <div class="schedule__box text-right min-height-273">
-                        <h2 class="schedule__box__part">01</h2>
-                        <p class="schedule__box__time" dir="ltr">9:30-10</p>
-                        <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">دانیال صابونچی</span><span class="font-12 is-gray">/ بهترین دیزاینر دنیا</span>
-                        </div>
-                        <p class="font-12 is-gray is-bold">دیزاین را چگونه معرفی کنیم</p>
-                    </div>
-                    <div class="schedule__box text-right min-height-200">
-                        <p  class="schedule__box__time" dir="ltr">10-10:30</p>
-                        <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">سروش رضایی</span><span class="font-12 is-gray">/ انیماتور دیزاینر دنیا</span>
-                        </div>
-                        <p class="font-12 is-gray is-bold">اکبر چگونه دیزاینر شد؟</p>
-                    </div>
-                    <div class="schedule__breackPoint">
-                        <span class="schedule__breackPoint__desc">نیمه استراحت  /</span>
-                        <span class="schedule__breackPoint__time" dir="ltr">10:30-11:15</span>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="schedule__box text-right min-height-273">
-                        <h2 class="schedule__box__part">02</h2>
-                        <p class="schedule__box__time" dir="ltr">11:15-12:15</p>
-                        <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">پنل: </span>
-                            <span class="font-12">
-                                کیارش آمالی‌وند، جعفر هنان، رضا کلهر
-                                <br/>
-                                عباس کیارستمی، عباس قادری
-                            </span>
-                        </div>
-                        <p class="font-12 is-gray is-bold">دیزاین سیستم</p>
-                    </div>
-                    <div class="schedule__box text-right min-height-200">
-                        <p  class="schedule__box__time" dir="ltr">12:15-12:45</p>
-                        <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">عباس جدیدی</span><span class="font-12 is-gray">/ سلفی‌ترین دیزاینر دنیا</span>
-                        </div>
-                        <p class="font-12 is-gray is-bold">سلفی با بزرگان، یک قدم به جلو</p>
-                    </div>
-                    <div class="schedule__breackPoint">
-                        <span class="schedule__breackPoint__desc">ناهار  /</span>
-                        <span class="schedule__breackPoint__time" dir="ltr">12:45-13:45</span>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="schedule__box text-right min-height-273">
-                        <h2 class="schedule__box__part">03</h2>
-                        <p class="schedule__box__time" dir="ltr">13:45-14:15</p>
-                        <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">آریو عبدی</span><span class="font-12 is-gray">/ اسکل‌ترین دیزاینر دنیا</span>
-                        </div>
-                        <p class="font-12 is-gray is-bold">تصویرسازی به شکل نوین</p>
-                    </div>
-                    <div class="schedule__box text-right min-height-200">
-                        <p  class="schedule__box__time" dir="ltr">14:15-14:45</p>
-                        <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">محمد غنایی</span><span class="font-12 is-gray">/ گزارشگرترین دیزاینر دنیا</span>
-                        </div>
-                        <p class="font-12 is-gray is-bold">ایران، استرالیا؛ سلام فرانسه</p>
-                    </div>
-                    <div class="schedule__box text-right">
-                        <p  class="schedule__box__time" dir="ltr">14:15-14:45</p>
-                        <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">پنل: </span>
-                            <span class="font-12">
-                                کیارش آمالی‌وند، جعفر هنان، رضا کلهر
-                                <br/>
-                                عباس کیارستمی، عباس قادری
-                            </span>
-                        </div>
-                        <p class="font-12 is-gray is-bold">ایران، استرالیا؛ سلام فرانسه</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
     <section class="map" id="map">
         <div class="map__location">
@@ -398,7 +606,9 @@
                 srcset="images/pin/pin@2x.png 2x,
                 images/pin/pin@3x.png 3x">
                 <div class="map__address">
-                    بلوار ارتش، خیابان ابوالفضل صمیع، باغ بهشت، پارادایس‌ هاب
+                    بلوار ارتش، خیابان ابوالفضل صمیع،
+                    <br>
+                    باغ بهشت، پارادایس‌ هاب
                 </div>
             </div>
             <div>
@@ -428,10 +638,56 @@
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3235.9011046472706!2d51.4907835!3d35.8023611!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e04e016d77155%3A0x25a6936564820bb0!2sBaghe+Behesht!5e0!3m2!1sen!2s!4v1542360130561" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>    </section>
     </section>
-    <hr>
-    <section>
 
-
+    <footer class="footer">
+        <div class="footer__subBar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-6 text-center text-sm-right">
+                        <img class="footer__subBar__img" 
+                        src="images/dribbble-logo-light/dribbble-logo-light-2.png"
+                        srcset="images/dribbble-logo-light/dribbble-logo-light-2@2x.png 2x,
+                                images/dribbble-logo-light/dribbble-logo-light-2@3x.png 3x">
+                    </div>
+                    <div class="col-12 col-sm-6 text-center text-sm-left">
+                        <p class="footer__subBar__title">Proudly from Tehran, Iran</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__socialCopyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-6 text-center text-sm-right">
+                        <p class="footer__socialCopyright__title">© 2018 Tehran Dribbble Meetup. All rights reserved.</p>
+                    </div>
+                    <div class="col-12 col-sm-6 text-center text-sm-left">
+                        <ul class="footer__socialCopyright__wrapper align-items-center">
+                            <li class="footer__socialCopyright__wrapper__item">
+                                <a class="footer__socialCopyright__wrapper__link" href="#">
+                                    <img src="images/dribbble.svg" alt="">
+                                </a>
+                            <li class="footer__socialCopyright__wrapper__item">
+                                <a class="footer__socialCopyright__wrapper__link" href="#">
+                                    <img src="images/twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__socialCopyright__wrapper__item">
+                                <a class="footer__socialCopyright__wrapper__link" href="#">
+                                    <img src="images/insta.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__socialCopyright__wrapper__item">
+                                <a class="footer__socialCopyright__wrapper__link" href="#">
+                                        <img src="images/telegram.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
         
     <script type="text/javascript">
