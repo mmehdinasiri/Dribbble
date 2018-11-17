@@ -9,15 +9,14 @@
     position: relative;
 }
 .tdm__content__bigTitle{
-    font-size:100px !important;
     text-align: left;
     direction: ltr;
     position: absolute;
     left: -10px;
     top: -35px;
     font-family: "Gilroy" !important;
-    font-weight: 700;
-    font-size: 100px !important;
+    font-weight: 900;
+    font-size: 60px !important;
     color: $lightPink;
 }
 .tdm__content__title{
@@ -36,7 +35,7 @@
 }
 .tdm__content__overlay{
     position: absolute;
-    top: -10px;
+    top: -35px;
     left: 0;
 }
 .tdm__video{

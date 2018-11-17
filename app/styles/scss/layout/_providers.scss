@@ -8,6 +8,10 @@
     color: $lighBlack;
     margin-bottom: 60px;
 }
+
+.provide__item__fig{
+    position: relative;
+}
 .provide__item__fig__img{
     position: relative;
     display: block;
@@ -21,9 +25,9 @@
     font-size: 18px;
     font-weight: 500;
     padding: 0 5px;
-    position: absolute;
-    bottom: 100px;
-    right: 115px;
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
     z-index: 1000;
     direction: ltr;
 }

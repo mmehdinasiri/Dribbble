@@ -62,9 +62,10 @@
 
 
 
-@media (max-width: 992px) { 
+@media (max-width: 991px) { 
     .header{
         border-bottom: none;
+        padding-right: 20px;
     }
     .navbar-collapse {
         background-color: rgba(8, 8, 8, 0.7);
@@ -103,7 +104,22 @@
         margin-bottom: 30px;
     }
     .tdm__content__bigTitle{
+        font-size: 45px !important;
+        top: -15px;
+    }
+    .game__whyUs{
+        width: 100%;
+        min-width: unset;
+    }
+    .game__whyUs__details__desc{
+        white-space: normal;
+    }
+    .game__header__en,
+    .sponsor__header__en{
         font-size: 75px !important;
+    }
+    .sponsor__header{
+        bottom: 20px
     }
     .map__location{
         text-align: center;
@@ -125,9 +141,26 @@
 
  
 @media (max-width: 575px) { 
+    .tdm__content{
+        padding: 0 15px;   
+    }
+    .tdm__content__title{
+        text-align: center;
+    }
     .tdm__content__bigTitle{
-        font-size: 50px !important;
-        left: 10px;
-        top: -15px;
+        font-size: 30px !important;
+        position: relative;
+        text-align: center
+    }
+    .game__header{
+        top: -30px;
+    }
+    .game__header__en,
+    .sponsor__header__en{
+        font-size:45px !important;
+    }
+    .sponsor__sponsoring__img{
+        width: 100px;
+        bottom: 55px;
     }
  }
