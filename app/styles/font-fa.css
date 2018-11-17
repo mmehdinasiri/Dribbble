@@ -39,21 +39,48 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.eot');
-  src: url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.eot') format('eot'), url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff2') format('woff2'), url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff') format('woff'), url('../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.ttf') format('ttf');
-  font-weight: bold;
+  src: url('../fonts/Gilroy/Gilroy-Medium.eot');
+  src: url('../fonts/Gilroy/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy/Gilroy-Medium.woff2') format('woff2'),
+      url('../fonts/Gilroy/Gilroy-Medium.woff') format('woff'),
+      url('../fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-medium/Gilroy-Medium.eot');
-  src: url('../fonts/Gilroy-medium/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Gilroy-medium/Gilroy-Medium.woff2') format('woff2'),
-      url('../fonts/Gilroy-medium/Gilroy-Medium.woff') format('woff'),
-      url('../fonts/Gilroy-medium/Gilroy-Medium.ttf') format('truetype');
-  font-weight: 500;
+  src: url('../fonts/Gilroy/Gilroy-Heavy.eot');
+  src: url('../fonts/Gilroy/Gilroy-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy/Gilroy-Heavy.woff2') format('woff2'),
+      url('../fonts/Gilroy/Gilroy-Heavy.woff') format('woff'),
+      url('../fonts/Gilroy/Gilroy-Heavy.ttf') format('truetype');
+  font-weight: 900;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy/Gilroy-Bold.eot');
+  src: url('../fonts/Gilroy/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
+      url('../fonts/Gilroy/Gilroy-Bold.woff') format('woff'),
+      url('../fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy/Gilroy-Light.eot');
+  src: url('../fonts/Gilroy/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy/Gilroy-Light.woff2') format('woff2'),
+      url('../fonts/Gilroy/Gilroy-Light.woff') format('woff'),
+      url('../fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
 
 
 /* Defined class for font-Fa */

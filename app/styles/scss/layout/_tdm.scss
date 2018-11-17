@@ -32,6 +32,12 @@
 }
 .tdm__content__desc{
     color: $black;
+    line-height: 30px;
+}
+.tdm__content__overlay{
+    position: absolute;
+    top: -10px;
+    left: 0;
 }
 .tdm__video{
     margin-top: 30px;

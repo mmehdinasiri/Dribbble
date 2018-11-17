@@ -28,7 +28,7 @@ a {
     transition: color 0.2s ease-in-out;
   }
 a:hover{
-  color: #35168d;
+  color: #35168d !important;
 }
   /**
    * Improve readability when focused and also mouse hovered in all browsers.

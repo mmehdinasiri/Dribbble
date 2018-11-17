@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1008px;
+    height: 860px;
     position: relative;
     padding: 60px 0;
 
@@ -17,9 +17,28 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    z-index: 10;
+}
+.game__header__en{
+  opacity: 0.05;
+  font-family: Gilroy !important;
+  font-size: 100px !important;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.9;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+  opacity: 0.15;
 }
 
 .game__whyUs {
+    min-width: 800px;
     padding: 25px 60px 25px 40px;
     position: absolute;
     bottom: 60px;
@@ -74,4 +93,28 @@
   }
   .isGilroy{
     font-family: "Gilroy" !important;
+  }
+
+
+
+  .game__whyUs__details-temp-title{
+    font-size: 30px !important;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .game__whyUs__details-temp-desc{
+      font-size: 16px !important;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.94;
+      letter-spacing: normal;
+      text-align: center;
+      margin-bottom: 20px;
   }
