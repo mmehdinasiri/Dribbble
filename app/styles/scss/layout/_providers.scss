@@ -13,8 +13,7 @@
     display: block;
     margin: 0 auto 20px;
 }
-.provide__item__fig.Ario::after{
-    content: '@ryhmario';
+.provide__item__fig__badge{
     background-color: $lightPink;
     color:  $lighBlack;
     display: block;
@@ -23,24 +22,8 @@
     font-weight: 500;
     padding: 0 5px;
     position: absolute;
-    bottom: 120px;
-    left: 75px;
-    z-index: 1000;
-    direction: ltr;
-}
-
-.provide__item__fig.Kia::after{
-    content: '@kiawisherman';
-    background-color: $lightPink;
-    color:  $lighBlack;
-    display: block;
-    font-family: Gilroy !important;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 0 5px;
-    position: absolute;
-    bottom: 120px;
-    left: 100px;
+    bottom: 100px;
+    right: 115px;
     z-index: 1000;
     direction: ltr;
 }
@@ -71,6 +54,8 @@
 .small-size{
     .provide__item__fig__img{
         margin-bottom: 15px;
+        width: 150px;
+        min-width: 150px;
     }
     .provide__item__fig.Ario::after,
     .provide__item__fig.Kia::after{
