@@ -15,14 +15,16 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px)and(max-width:991px) {
-    .itro__img{
+    .itro__img,
+    .intro__logo{
         right: 2%;
     }
   }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px)and(max-width:1199px) { 
-    .itro__img{
+    .itro__img,
+    .intro__logo{
         right: 5%;
     }
     .map__location{
@@ -32,7 +34,8 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px)and(max-width: 1399px){ 
-    .itro__img{
+    .itro__img,
+    .intro__logo{
         right: 10%;
     }
     .map__location{
@@ -41,7 +44,8 @@
   }
 
 @media (min-width: 1400px)and(max-width:1599px) {
-    .itro__img{
+    .itro__img,
+    .intro__logo{
         right: 15%;
     }
     .map__location{
@@ -49,8 +53,9 @@
     }
   }
 @media (min-width: 1600px) {
-    .itro__img{
-        right: 25%;
+    .itro__img,
+    .intro__logo{
+        right: 20%;
     }
     .map__location{
         right: 20%
@@ -97,6 +102,13 @@
         justify-content: center !important;;
     }
 
+    .intro__logo__ballLogo{
+        margin-left: 50px
+    }
+    .intro__logo__persianText {
+        margin-right: 80px;
+    }
+
     .tdm{
         padding: 60px 0;
     }
@@ -116,7 +128,7 @@
     }
     .game__header__en,
     .sponsor__header__en{
-        font-size: 75px !important;
+        font-size: 70px !important;
     }
     .sponsor__header{
         bottom: 20px
@@ -141,6 +153,50 @@
 
  
 @media (max-width: 575px) { 
+    .intro{
+        background-image: unset;
+        background-color: #c84289;
+    }
+    .intro__logo{
+        position: unset;
+        right: unset;
+        width: 375px;
+        transform: translateY(75%);
+        margin: 0 auto;
+    }
+    .intro__logo__number{
+        text-align: center;
+    }
+    .intro__logo__dribleLogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 160px;
+    }
+    .intro__logo__ballLogo{
+        margin-left: 70px;
+    }
+    .intro__logo__ballLogo__img{
+        width: 40px;
+    }
+    .intro__logo__persianText{
+        text-align: center;
+        margin-right: 0
+    }
+    .intro__logo__ballLogo__text{
+        font-size: 40px !important;
+    }
+    .intro__logo__ballLogo__text.moveTop{
+        top: -15px;
+    }
+    .intro__logo__persianText.moveTop{
+        top:-15px;
+    }
+
+
+
+
+
     .tdm__content{
         padding: 0 15px;   
     }
@@ -157,7 +213,7 @@
     }
     .game__header__en,
     .sponsor__header__en{
-        font-size:45px !important;
+        font-size: 45px !important;
     }
     .sponsor__sponsoring__img{
         width: 100px;

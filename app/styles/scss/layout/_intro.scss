@@ -13,12 +13,69 @@
     }
 }
 
-.itro__img{
+.itro__img,
+.intro__logo{
     position: absolute;
     z-index: 15;
     top: 40%;
-    right: 0%;
+    right: -10%;
     width: 509px;
     height: 251px;
     z-index: 5;
+}
+
+.intro__logo__number{
+    font-family: Gilroy !important;
+    font-size: 30px !important;
+    color: $white;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.intro__logo__ballLogo{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.intro__logo__ballLogo__img{
+    float: left;
+    padding-top: 15px;
+}
+.intro__logo__ballLogo__text{
+    font-family: Gilroy !important;
+    font-size: 52px !important;
+    font-weight: 300;
+    color: $white;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    .isBold{
+        font-weight: 900;
+    }
+    &.moveTop{
+        position: relative;
+        top: -25px;
+    }
+}
+.intro__logo__persianText{
+    font-family: IRANSans !important;
+    font-size: 19px !important;
+    color: $white;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    .isThin{
+        font-weight: 300;
+    }
+    &.moveTop{
+        position: relative;
+        top: -35px;
+    }
 }
