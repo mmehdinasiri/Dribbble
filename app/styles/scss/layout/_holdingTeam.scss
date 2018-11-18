@@ -6,7 +6,25 @@
     font-size: 30px !important;
     font-weight: 700;
     color: $lighBlack;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35px;
+    bottom: 60px;
+    z-index: 10;
+}
+.holdingTeam__header__en{
+    opacity: 0.05;
+    font-family: Gilroy !important;
+    font-size: 100px !important;
+    font-weight: 900;
     margin-bottom: 60px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+    text-align: center;
+    color: $lighBlack;
 }
 .holdingTeam .size {
     max-width: 228px;

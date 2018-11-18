@@ -18,15 +18,17 @@
     margin: 0 auto 20px;
 }
 .provide__item__fig__badge{
-    background-color: $lightPink;
-    color:  $lighBlack;
+    background-color: $lightPink !important;
+    color:  $lighBlack !important;
     display: block;
-    font-family: Gilroy;
-    font-size: 18px;
+    font-family: Gilroy !important;
+    font-size: 18px !important;
     font-weight: 500;
     padding: 0 5px;
-    position: relative;
-    bottom: 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     display: inline-block;
     z-index: 1000;
     direction: ltr;
@@ -57,9 +59,9 @@
 
 .small-size{
     .provide__item__fig__img{
-        margin-bottom: 15px;
-        width: 150px;
-        min-width: 150px;
+        margin-bottom: 10px;
+        width: 125px;
+        min-width: 125px;
     }
     .provide__item__fig.Ario::after,
     .provide__item__fig.Kia::after{
@@ -73,10 +75,10 @@
         left: 60px;
     }
     .provide__item__title__name{
-        font-size: 20px !important;
-        line-height: 40px;
+        font-size: 16px !important;
+        line-height: 35px;
     }
     .provide__item__title__desc{
-        font-size: 16px !important;
+        font-size: 12px !important;
     }
 }

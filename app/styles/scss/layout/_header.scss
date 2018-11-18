@@ -27,9 +27,10 @@
 .menu__social .ticket__item__link{
     padding: 10px 40px !important;
     border-radius: 50px;
-    color: $darkPurple !important;
+    color: $primaryColor !important;
     background-color: $white !important;
     text-align: center;
+    font-weight: 500;
 }
 .ticket__item__link.mobile{
     display: none;
