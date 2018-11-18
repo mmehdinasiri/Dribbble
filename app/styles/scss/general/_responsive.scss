@@ -63,14 +63,12 @@
 }
 
 
-
-
-
-
 @media (max-width: 991px) { 
     .header{
         border-bottom: none;
-        padding-right: 20px;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
     }
     .navbar-collapse {
         background-color: rgba(8, 8, 8, 0.7);
@@ -218,5 +216,10 @@
     .sponsor__sponsoring__img{
         width: 100px;
         bottom: 55px;
+    }
+
+    .map__location{
+        width: 100%;
+        top:0;
     }
  }
