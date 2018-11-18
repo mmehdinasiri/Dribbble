@@ -142,6 +142,9 @@
     .sponsor__header{
         bottom: 20px
     }
+    .sponsor__sponsoring{
+        padding: 25px 50px;
+    }
     .map__location{
         text-align: center;
         top: 5%;
@@ -173,7 +176,7 @@
     .intro__logo{
         position: unset;
         right: unset;
-        width: 375px;
+        width: 350px;
         transform: translateY(75%);
         margin: 0 auto;
     }
@@ -187,7 +190,7 @@
         width: 160px;
     }
     .intro__logo__ballLogo{
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .intro__logo__ballLogo__img{
         width: 60px;
