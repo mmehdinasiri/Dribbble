@@ -28,7 +28,7 @@
     font-family: Gilroy !important;
     font-size: 30px !important;
     color: $white;
-    font-weight: 300;
+    font-weight: 300 !important;;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -38,11 +38,12 @@
 }
 .intro__logo__ballLogo{
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 85px;
 }
 .intro__logo__ballLogo__img{
     float: left;
     padding-top: 15px;
+    padding-right: 10px;
 }
 .intro__logo__ballLogo__text{
     font-family: Gilroy !important;
