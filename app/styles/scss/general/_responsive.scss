@@ -71,7 +71,7 @@
         margin-right: 20px;
     }
     .navbar-collapse {
-        background-color: rgba(8, 8, 8, 0.7);
+        background-color: rgba(8, 8, 8, 0.85);
         padding: 20px;
         position: relative;
         z-index: 20;
@@ -79,8 +79,8 @@
     .menu__main{
         text-align: center !important;
     }
-    .nav-item{
-        margin-bottom: 10px;
+    .menu__main .nav-item{
+        margin-bottom: 25px;
     }
     .nav-link{
         border-left: unset !important;
@@ -88,6 +88,17 @@
     }
     .ticket__item__link.mobile{
         display: block;
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 40px !important;
+        border-radius: 50px;
+        color: #c7418a !important;
+        background-color: #fff !important;
+        text-align: center;
+        font-weight: 500;
     }
     
     .ticket__item.desktop{
@@ -151,6 +162,10 @@
 
  
 @media (max-width: 575px) { 
+    .ticket__item__link.mobile{
+        bottom: 60px;
+    }
+
     .intro{
         background-image: unset;
         background-color: #c84289;
