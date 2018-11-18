@@ -14,7 +14,12 @@ $charcoal :#2d2d2d;
 html{
   scroll-behavior: smooth;
 }
-
+::selection {
+  background: $lightPink; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $lightPink; /* Gecko Browsers */
+}
 
 // helper class
 .relative{
