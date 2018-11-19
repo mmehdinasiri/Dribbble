@@ -47,4 +47,20 @@
 .ticket__item.mobile{
     display: inline-block;
 }
+.fixed-menu{
+    position: fixed;
+    background: $primaryColor;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 1px 0 10px rgba(0,0,0,.15);
+    .header{
+        position: relative;
+        padding: 15px 0;
+        border-bottom: unset;
+        .menu__social .ticket__item{
+            margin-top: 0;
+        }
+    }
 
+}
