@@ -88,17 +88,9 @@
     }
     .ticket__item__link.mobile{
         display: block;
-        display: block;
         position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 10px 40px !important;
-        border-radius: 50px;
-        color: #c7418a !important;
-        background-color: #fff !important;
-        text-align: center;
-        font-weight: 500;
+        top: 20px;
+        left: 15%;
     }
     
     .ticket__item.desktop{
@@ -135,6 +127,11 @@
     .game__whyUs__details__desc{
         white-space: normal;
     }
+    .game__whyUs__icon{
+        position: initial;
+        top: unset;
+        right: unset;
+    }
     .game__header__en,
     .sponsor__header__en{
         font-size: 70px !important;
@@ -166,7 +163,11 @@
  
 @media (max-width: 575px) { 
     .ticket__item__link.mobile{
+        position: absolute;
+        top: unset;
         bottom: 60px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .intro{
