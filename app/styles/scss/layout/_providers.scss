@@ -29,9 +29,12 @@
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    display: inline-block;
+    display: flex;
     z-index: 1000;
     direction: ltr;
+}
+.provide__item__fig__badge__social{
+    width: 18px;
 }
 .provide__item__title{
     margin-right: 30px;
