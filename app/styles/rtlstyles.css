@@ -1,10 +1,7 @@
 html * {
     font-family:"Gilroy" !important ;
  }
-.language{
-    left: unset;
-    right: 15px;
-}
+
 .language__text{
     font-family:"IRANSans" !important ;
 }
