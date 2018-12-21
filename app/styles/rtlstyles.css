@@ -1,3 +1,13 @@
+html * {
+    font-family:"Gilroy" !important ;
+ }
+.language{
+    left: unset;
+    right: 15px;
+}
+.language__text{
+    font-family:"IRANSans" !important ;
+}
 .menu__social .ticket__item{
     margin-right: 0px;
     margin-left: 40px;
@@ -7,7 +17,7 @@
     border-left: unset;
     border-right: 1px solid  rgba(255,255,255,0.3);
 }
-.menu__main .navbar-nav .nav-item:last-child .nav-link{
+.menu__main .navbar-nav .nav-item.no-border .nav-link{
     border-right:unset;
 }
 
@@ -42,7 +52,9 @@
     margin-left: 30px;
     text-align: left;
 }
-
+.small-size .provide__item__title__name{
+    line-height: 28px
+}
 .small-size .provide__item__fig.Ario::after{
         left: unset;
         right: 50px;
@@ -56,12 +68,15 @@
     text-align: left;
 }
 
-
-
 @media (max-width: 991px) { 
     .ticket__item__link.mobile{
         right: 15%;
         left: unset;
+        padding: 10px 25px !important;
+    }
+    .navbar-toggler{
+        margin-right: unset;
+        margin-left: 20px;
     }
 }
 

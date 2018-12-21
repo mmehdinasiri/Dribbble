@@ -1,6 +1,5 @@
 
 
-
 @media (max-width: 575px) { 
     .footer__subBar__title{
         margin-top: 10px;
@@ -84,6 +83,7 @@
     }
     .nav-link{
         border-left: unset !important;
+        border-right: unset !important;
         color: $white !important;
     }
     .ticket__item__link.mobile{
