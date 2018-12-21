@@ -1,0 +1,73 @@
+.menu__social .ticket__item{
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.menu__main .nav-link{
+    border-left: unset;
+    border-right: 1px solid  rgba(255,255,255,0.3);
+}
+.menu__main .navbar-nav .nav-item:last-child .nav-link{
+    border-right:unset;
+}
+
+.tdm__content__bigTitle{
+    text-align: right;
+    left: unset;
+    right: -10px;
+}
+.tdm__content__overlay{
+    left: unset;
+    right: 0;
+}
+
+.game__whyUs__details__desc::before{
+    margin-right: 0px;
+    margin-left: 6px;
+}
+.game__whyUs__byeTicket{
+    float: right;
+}
+.game__whyUs__icon{
+    left: 0;
+    right: unset;
+}
+.sponsor__sponsoring__img{
+    right: unset;
+    left: 20px;
+    transform: scaleX(-1)
+}
+.provide__item__title{
+    margin-right: unset;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.small-size .provide__item__fig.Ario::after{
+        left: unset;
+        right: 50px;
+    }
+.small-size .provide__item__fig.Kia::after{
+        left: unset;
+        right: 60px;
+    }
+
+.footer__subBar{
+    text-align: left;
+}
+
+
+
+@media (max-width: 991px) { 
+    .ticket__item__link.mobile{
+        right: 15%;
+        left: unset;
+    }
+}
+
+@media (max-width: 575px) { 
+    .ticket__item__link.mobile{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
