@@ -209,8 +209,8 @@
     }
     .intro__logo__persianText.moveTop{
         top:-15px;
+        right: 0;
     }
-
 
 
 
@@ -226,9 +226,20 @@
         position: relative;
         text-align: center
     }
+    .panelServices__header,
+    .providers__header,
+    .schedule__header{
+        top: -50px;
+    }
+    .schedule__header__en{
+        margin-bottom: 30px;
+    }
     .game__header{
         top: -30px;
     }
+    .schedule__header__en,
+    .panelServices__header__en,
+    .providers__header__en,
     .game__header__en,
     .sponsor__header__en{
         font-size: 45px !important;
@@ -241,5 +252,13 @@
     .map__location{
         width: 100%;
         top:0;
+    }
+    .schedule__overlay__img,
+    .panelServices__overlay{
+        display: none;
+    }
+    .provide__item__title{
+        text-align: center !important;
+        margin-right: 0 !important;
     }
  }
