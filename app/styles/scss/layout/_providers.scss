@@ -29,6 +29,7 @@
   text-align: center;
   color: $lighBlack;
   opacity: 0.15;
+  margin-bottom: 50px;
 }
 .provide__item__fig{
     position: relative;
@@ -53,9 +54,6 @@
     display: flex;
     z-index: 1000;
     direction: ltr;
-    &.provide__item__fig__badge{
-        left: 35%;
-    }
 }
 
 .provide__item__fig__badge__social{
@@ -130,7 +128,7 @@
         margin-right: 30px
     }
     .provide__item__title__name{
-        font-size: 13px !important;
+        font-size: 14px !important;
         line-height: 30px;
     }
     .provide__item__title__desc{
