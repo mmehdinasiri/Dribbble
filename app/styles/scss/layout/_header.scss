@@ -18,9 +18,10 @@
     border-left: 1px solid  rgba(255,255,255,0.3);
     font-size: 13px !important;
 }
-.menu__main .navbar-nav .nav-item:last-child .nav-link{
+.menu__main .navbar-nav .nav-item.no-border .nav-link{
     border-left:unset;
 }
+
 .menu__social .ticket__item{
     margin-top: -10px;
     margin-right: 40px;
@@ -31,7 +32,7 @@
     color: $primaryColor !important;
     background-color: $white !important;
     text-align: center;
-    font-weight: 500;
+    font-weight: 300;
 }
 .ticket__item__link.mobile{
     display: none;
@@ -41,10 +42,30 @@
     padding: 10px 40px !important;
     background-color: #fff !important;
     text-align: center;
-    font-weight: 500;
+    font-weight: 300;
     border-radius: 50px;
+    z-index: 999;
 }
 .ticket__item.mobile{
     display: inline-block;
 }
 
+.language{
+    position: absolute;
+    right: 15px;
+    bottom: -25px;
+    color: #fff !important;
+    font-size: 11px !important;
+    &:hover{
+        color: #fff  !important;
+    }
+}
+.language__text{
+    display: inline-block;
+}
+
+.navbar-nav .language{
+    position: initial;
+    left: unset;
+    bottom: unset;
+}

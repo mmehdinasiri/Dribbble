@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="styles/font-fa.css">
     <link rel="stylesheet" href="lib/bootstrap-4/bootstrap-v4-rtl-4/dist/css/bootstrap-rtl.min.css">
     <!-- <link rel="stylesheet" href="lib/bootstrap-4/bootstrap-4.1.3/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="styles/styles.css?v=5">
+    <link rel="stylesheet" href="styles/styles.css?v=13.1">
+
 </head>
 
 <body dir="rtl">
@@ -39,17 +40,26 @@
                                 <li class="nav-item active">
                                     <a class="nav-link" href="#tdm">درباره دورهمی<span class="sr-only">(current)</span></a>
                                 </li>
-                                <!-- <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link" href="#providers">سخنرانان</a>
-                                </li> -->
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#schedule">زمان‌بندی</a>
+                                    </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#sponsor">حامیان</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#holdingTeam">تیم برگزاری</a>
                                 </li>                               
-                                <li class="nav-item">
+                                <li class="nav-item no-border">
                                     <a class="nav-link" href="#map">محل برگزاری</a>
+                                </li>
+                                <li class="nav-item d-lg-none">
+                                    <a href="/en.html" class="language">
+                                        <p class="language__text">English Version</p>
+                                        <img class="language__icon" src="./images/language.svg" alt="">
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -76,12 +86,16 @@
                                     </a>
                                 </li>
                                 <li class="nav-item ticket__item desktop">
-                                    <a class="nav-link  ticket__item__link " href="#game">خرید بلیط</a>
+                                    <a class="nav-link  ticket__item__link " href="#game">ثبت نام</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
+                <a href="/en.html" class="language d-none d-lg-block">
+                    <p class="language__text">English Version</p>
+                    <img class="language__icon" src="./images/language.svg" alt="">
+                </a>
             </header>
         </div>
     </div>
@@ -94,11 +108,11 @@
                 <div class="intro__logo__ballLogo">
                     <img  class="intro__logo__ballLogo__img" src="./images/intro-dribbble-ball.svg">
                     <p class="intro__logo__ballLogo__text">MEETUP</p>
-                    <p class="intro__logo__ballLogo__text moveTop">IN <span class="intro__logo__ballLogo__Text isBold">TEHRAN</span></p>
+                    <p class="intro__logo__ballLogo__text moveTop">IN <span class="intro__logo__ballLogo__text isBold">TEHRAN</span></p>
                 </div>
-                <h4 class="intro__logo__persianText moveTop">۷ دی ماه <span class="isThin">۱۳۹۷،</span> پارادایس هاب</h4>
+                <h4 class="intro__logo__persianText moveTop">۷ دی ماه <span class="isThin">۱۳۹۷</span> <span class="">کارخانه نوآوری های‌وی</span></h4>
             </div>
-            <a class="nav-link  ticket__item__link mobile" href="#game">خرید بلیط</a>
+            <a class="nav-link  ticket__item__link mobile" href="#game">ثبت نام</a>
         </div>
     </section>
     <section class="tdm" id="tdm">
@@ -117,7 +131,7 @@
                             <p class="text-justify tdm__content__desc">
                                 دریبل بهانه‌ای است برای برگزاری رویدادی که طراحان دیجیتال را کنار هم بنشاند. هدف ما از این دور هم بودن ایجاد فضای مناسبی برای برقراری ارتباط بین طراحان، اشتراک تجربه‌های کاری و رفع شکاف ارتباطی و علمی بین طراحان است.
                                 <br>
-                                خلاصه بگوییم، ما آمده‌ایم که هم‌گام با جامعه جهای، فضای کاری را حرفه‌ای‌تر کنیم.
+                                خلاصه بگوییم، ما آمده‌ایم که هم‌گام با جامعه جهانی، فضای کاری را حرفه‌ای‌تر کنیم.
                             </p>
                             <img src="images/dribbble-ball-mark-big/dribbble-ball-mark-copy.png"
                                 srcset="images/dribbble-ball-mark-big/dribbble-ball-mark-copy@2x.png 2x,
@@ -133,86 +147,85 @@
                 </div>
         </div>
     </section>
-    <!-- <section class="providers" id="providers">
+    <section class="providers" id="providers">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="providers__header text-center">ارائه دهندگان</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="providers__header text-center">ارائه دهندگان</h2>
+                        <h2 class="providers__header__en text-center">
+                            Speakers
+                        </h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-6 col-lg-4">
+            <div class="row justify-content-center medium-size">
+                <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 margin-b-40">
                     <div class="provide__item text-center">
-                            <figure class="provide__item__fig Ario">
-                                <img class="provide__item__fig__img" src="images/ario/Ario.png" alt="">
-                            </figure>
-                        
+                        <div class="provide__item__fig">
+                            <img class="provide__item__fig__img" src="images/holdingTeam/Reza.png" alt="">
+                            <span class="provide__item__fig__badge">
+                                <img class="provide__item__fig__badge__social" src="images/holdingTeam/instagram.svg">
+                                <span class="provide__item__fig__badge__id">rbakhtiarifard</span>
+                            </span>
+                        </div>
                         <div class="provide__item__title text-right">
-                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                            <h3 class="provide__item__title__name" >رضا بختیاری‌فرد</h3>
                             <div>
-                                <p class="provide__item__title__desc">طراح در اسنپ</p>
+                                <p class="provide__item__title__desc">تایپوگرافر</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 margin-b-40">
                     <div class="provide__item text-center">
-                        <figure class="provide__item__fig">
-                            <img class="provide__item__fig__img" src="images/kia/Kia.png" alt="">
-                        </figure>
-                        
-                        <div class="provide__item__title text-right">
-                            <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
-                            <div>
-                                <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
-                            </div>
+                        <div class="provide__item__fig">
+                            <img class="provide__item__fig__img" src="images/holdingTeam/elahe.png" alt="">
+                            <span class="provide__item__fig__badge">
+                                <img class="provide__item__fig__badge__social" src="images/holdingTeam/instagram.svg">
+                                <span class="provide__item__fig__badge__id">elahebaloochi</span>
+                            </span> 
                         </div>
-                        
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="provide__item text-center">
-                        <figure class="provide__item__fig Ario">
-                            <img class="provide__item__fig__img" src="images/ario/Ario.png" alt="">
-                        </figure>
-                        
                         <div class="provide__item__title text-right">
-                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                            <h3 class="provide__item__title__name" >الهه بلوچی</h3>
                             <div>
-                                <p class="provide__item__title__desc">طراح در اسنپ</p>
+                                <p class="provide__item__title__desc">تصویرساز</p>
                             </div>
                         </div>
                         
                     </div>
                 </div>
-            </div>
-
-            <div class="row justify-content-center margin-t-100">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 margin-b-40">
                     <div class="provide__item text-center">
-                        <figure class="provide__item__fig Ario">
-                            <img class="provide__item__fig__img" src="images/ario/Ario.png" alt="">
-                        </figure>
+                        <div class="provide__item__fig">
+                            <img class="provide__item__fig__img" src="images/holdingTeam/arman.png" alt="">
+                             <span class="provide__item__fig__badge">
+                                <img class="provide__item__fig__badge__social" src="images/holdingTeam/instagram.svg">
+                                <span class="provide__item__fig__badge__id">armanalipour.oxtiwigo</span>
+                            </span>
+                        </div>
                         
                         <div class="provide__item__title text-right">
-                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                            <h3 class="provide__item__title__name" >آرمان علی‌پور</h3>
                             <div>
-                                <p class="provide__item__title__desc">طراح در اسنپ</p>
+                                <p class="provide__item__title__desc">موشن دیزاینر و انیماتور</p>
                             </div>
                         </div>
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 margin-b-40">
                     <div class="provide__item text-center">
-                        <figure class="provide__item__fig">
-                            <img class="provide__item__fig__img" src="images/kia/Kia.png" alt="">
-                        </figure>
+                        <div class="provide__item__fig">
+                            <img class="provide__item__fig__img" src="images/holdingTeam/hooman.png" alt="">
+                            <span class="provide__item__fig__badge">
+                                <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">
+                                <span class="provide__item__fig__badge__id">h8man</span>
+                            </span> 
+                        </div>
                         
                             <div class="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
+                                <h3 class="provide__item__title__name" >هومن هاتفی</h3>
                                 <div>
-                                    <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
+                                    <p class="provide__item__title__desc">مدیر طراحی اسنپ و اسنپ تریپ</p>
                                 </div>
                             </div>
                         
@@ -222,86 +235,108 @@
         </div>
     </section>
     <section class="panelServices" id="panelServices">
+            <img src="images/dribbble-ball-mark-big.svg"
+            class="panelServices__overlay">
         <div class="container">
             <div class="row">
-                <div class="col">
-                <h2 class="panelServices__header text-center">پنل بررسی دیزاین سرویس‌های موفق ایرانی</h2>
-                <p  class="panelServices__desc text-justify">
-                    این روزها بازار راه‌اندازی کسب‌وکار نوپا (استارتاپ) مخصوصا در حوزه وب و موبایل بسیار داغ شده و به همان نسبت هم مشکلاتی در پیش روی استارتاپ‌ها بوجود آمده است. فارغ از تیم فنی و اجرایی و همچنین موضوعات بیزینسی هر کسب و کاری، موضوعات حقوقی هم دارای اهمیت بالایی هستند که معمولا نادیده گرفته می‌شود و زمانی که کسب‌وکار دچار مشکلی می‌شود یاد این مسئله می‌افتیم. 
-                    <br>
-                    مواردی از جمله شخصیت حقوقی، نحوه ثبت شرکت، قراردادهای بین افراد و حتی سهام‌داران، نحوه تدوین این قبیل قراردادها و تقسیم سهام و همچنین مالکیت‌های فکری و معنوی و کپی‌رایت و مواردی از این قبیل موضوعاتی هستند که در این پنل آرش برهمند و مهمانان متخصص ما در این زمینه به آنها خواهند پرداخت.
-                </p>
-            </div>
-            </div>
-            <div class="row justify-content-center small-size">
-                <div class="col-sm-6 col-md-3">
-                    <div class="provide__item text-center">
-                        <figure class="provide__item__fig">
-                                <img  class="provide__item__fig__img"   src="images/kia/kia-small.png"
-                                                                        srcset="images/kia/kia-small@2x.png 2x,
-                                                                                images/kia/kia-small@3x.png 3x">
-                        </figure>
-                        
-                        <div class="provide__item__title text-right">
-                            <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
-                            <div>
-                                <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
-                            </div>
-                        </div>
-                        
-                    </div>
+                <div class="col-12">
+                    <h2 class="panelServices__header text-center">پنل سه وجهی</h2>
+                    <h2 class="panelServices__header__en text-center">
+                        Panel Discussion
+                    </h2>
                 </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="provide__item text-center">
-                            <figure class="provide__item__fig Ario">
-                                <img  class="provide__item__fig__img"   src="images/ario/ario-small.png"
-                                                                        srcset="images/ario/ario-small@2x.png 2x,
-                                                                                images/ario/ario-small@3x.png 3x">
-                            </figure>
-                        
-                        <div class="provide__item__title text-right">
-                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
-                            <div>
-                                <p class="provide__item__title__desc">طراح در اسنپ</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="provide__item text-center">
-                        <figure class="provide__item__fig">
-                                <img  class="provide__item__fig__img"   src="images/kia/kia-small.png"
-                                                                        srcset="images/kia/kia-small@2x.png 2x,
-                                                                                images/kia/kia-small@3x.png 3x">
-                        </figure>
-                        
-                        <div class="provide__item__title text-right">
-                            <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
-                            <div>
-                                <p class="provide__item__title__desc">مدیر محصول در دیجی‌کالا</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="provide__item text-center">
-                        <figure class="provide__item__fig Ario">
-                                <img  class="provide__item__fig__img"   src="images/ario/ario-small.png"
-                                                                        srcset="images/ario/ario-small@2x.png 2x,
-                                                                                images/ario/ario-small@3x.png 3x">
-                        </figure>
-                        
-                        <div class="provide__item__title text-right">
-                            <h3 class="provide__item__title__name" >آریو عبدی</h3>
-                            <div>
-                                <p class="provide__item__title__desc">طراح در اسنپ</p>
-                            </div>
-                        </div>
-                        
-                    </div>
+                <div class="col-12">
+                    <p  class="panelServices__desc text-justify">
+                        یک محصول موفق حاصل تعامل متقابل و قوی واحد‌های مختلفی از مدیریت کسب و کار و توسعه آن گرفته تا طراحی و توسعه محصول و همینطور واحد تکنیکال و برنامه‌نویسی هست.                        
+                        <br>
+                        در این پنل قصد داریم به نحوه ارتباط این سه واحد با هم و فعالیت همسو و با هدف مشترک آن‌ها بپردازیم و همینطور از تجربیات حمید پورجم تیم لیدر کافه بازار در رابطه با ارتباط تیم برنامه نویسی با تیم طراحی و محصول استفاده کنیم، همچنین کاوه یزدی فرد با سابقه طولانی مدت خود در زمینه توسعه کسب و کار از نیاز‌های این بخش و تاثیر آن در محصول و نیاز به همکاری متقابل تیم طراحی برای ما می‌گوید.
+                        <br>
+                        رسام رستمی و آرین مقبلی سابقه مدیریت محصول و هدایت تیم دیزاین در شرکت‌های اسنپ و تپسی رو دارند و قرار است از دغدغه‌های طراحان در ارتباط با کسب و کار و واحد‌های مختلف همانند واحد تکنیکال و برنامه نویسی بگویند.
+                    </p>
                 </div>
             </div>
+            <div class="row justify-content-center medium-size">
+                <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 margin-b-40">
+                    <div class="provide__item text-center">
+                        <div class="provide__item__fig">
+                            <img  class="provide__item__fig__img"   src="images/holdingTeam/Kave.png">
+                            <span class="provide__item__fig__badge left-side">
+                                <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">
+                                <span class="provide__item__fig__badge__id">kaave</span>
+                            </span>
+                        </div>
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >
+                                کاوه یزدی‌فرد   
+                            </h3>
+                            <div>
+                                <p class="provide__item__title__desc">مدیر دفتر نوآوری شهری</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+                <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 margin-b-40">
+                    <div class="provide__item text-center">
+                        <div class="provide__item__fig">
+                            <img  class="provide__item__fig__img"   src="images/holdingTeam/Hamid.png">
+                            <span class="provide__item__fig__badge  left-side">
+                                <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">
+                                <span class="provide__item__fig__badge__id">HPourjam</span>
+                            </span>
+                        </div>
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >
+                                حمید پور جم
+                            </h3>
+                            <div>
+                                <p class="provide__item__title__desc">تیم لیدر در کافه بازار</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+                <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 margin-b-40">
+                    <div class="provide__item text-center">
+                        <div class="provide__item__fig">
+                            <img  class="provide__item__fig__img"   src="images/holdingTeam/Rasam.png">
+                            <div class="provide__item__fig__badge  left-side">
+                                <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">
+                                <span class="provide__item__fig__badge__id">RasamRostami</span>
+                            </div>
+                        </div>
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >
+                                رسام رستمی
+                            </h3>
+                            <div>
+                                <p class="provide__item__title__desc">موسس آژانس پارادایم</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+                <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 margin-b-40">
+                    <div class="provide__item text-center">
+                        <div class="provide__item__fig">
+                            <img  class="provide__item__fig__img"   src="images/holdingTeam/Arian.png">
+                            <span class="provide__item__fig__badge  left-side ">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">
+                                    <span class="provide__item__fig__badge__id">arianmoghbeli</span>
+                                </span>
+                        </div>
+                        <div class="provide__item__title text-right">
+                            <h3 class="provide__item__title__name" >
+                                آرین مقبلی
+                            </h3>
+                            <div>
+                                <p class="provide__item__title__desc">سرپرست طراحی محصول تپ‌سی</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+            </div> 
         </div>
     </section>
     <section class="schedule" id="schedule">
@@ -312,20 +347,23 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="schedule__header text-center">زمان‌بندی رویداد</h2>
-                </div>
+                    <div class="col-12">
+                        <h2 class="schedule__header text-center">زمان‌بندی رویداد</h2>
+                        <h2 class="schedule__header__en text-center">
+                            Schedule
+                        </h2>
+                    </div>
             </div>
             <div class="row">
-                <div class="col text-right">
+                <div class="col schedule__wrapper__starBox">
                     <div class="schedule__starBox ">
-                        <div>
+                        <!-- <div>
                             <span class="schedule__starBox__desc">آماده‌سازی و گرم‌کردن، صبحانه</span>
                             <span class="schedule__starBox__time">9-8</span>
-                        </div>
-                        <div>
+                        </div> -->
+                        <div  class="schedule__starBox__inner">
                             <span class="schedule__starBox__desc">ترکیب‌بندی و سوت شروع</span>
-                            <span class="schedule__starBox__time" dir="ltr">9-9:30</span>
+                            <span class="schedule__starBox__time" dir="ltr">9:30-10:00</span>
                         </div>
                     </div>
                 </div>
@@ -334,82 +372,81 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="schedule__box text-right min-height-273">
                         <h2 class="schedule__box__part">01</h2>
-                        <p class="schedule__box__time" dir="ltr">9:30-10</p>
+                        <p class="schedule__box__time" dir="ltr">10:10-10:30</p>
                         <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">دانیال صابونچی</span><span class="font-12 is-gray">/ بهترین دیزاینر دنیا</span>
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">رضا بختیاری‌فرد</span><span class="font-12 is-gray">/ تایپوگرافر</span>
                         </div>
-                        <p class="font-12 is-gray is-bold">دیزاین را چگونه معرفی کنیم</p>
+                        <p class="font-12 is-gray is-bold">امید داشته باش!</p>
+                        <p class="font-12 is-gray is-bold">کار گروهی، چالش‌ها، راه‌حل‌ها</p>
                     </div>
                     <div class="schedule__box text-right min-height-200">
-                        <p  class="schedule__box__time" dir="ltr">10-10:30</p>
+                        <p  class="schedule__box__time" dir="ltr">10:40-11:00</p>
                         <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">سروش رضایی</span><span class="font-12 is-gray">/ انیماتور دیزاینر دنیا</span>
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">الهه بلوچی</span><span class="font-12 is-gray">/ تصویرساز</span>
                         </div>
-                        <p class="font-12 is-gray is-bold">اکبر چگونه دیزاینر شد؟</p>
+                        <p class="font-12 is-gray is-bold">تصویر سازی برای موشن دیزاین</p>
                     </div>
                     <div class="schedule__breackPoint">
-                        <span class="schedule__breackPoint__desc">نیمه استراحت  /</span>
-                        <span class="schedule__breackPoint__time" dir="ltr">10:30-11:15</span>
+                        <span class="schedule__breackPoint__desc">وقت  استراحت  /</span>
+                        <span class="schedule__breackPoint__time" dir="ltr">11:00-11:20</span>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="schedule__box text-right min-height-273">
                         <h2 class="schedule__box__part">02</h2>
-                        <p class="schedule__box__time" dir="ltr">11:15-12:15</p>
+                        <p class="schedule__box__time" dir="ltr">11:20-12:00</p>
                         <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">پنل: </span>
-                            <span class="font-12">
-                                کیارش آمالی‌وند، جعفر هنان، رضا کلهر
-                                <br/>
-                                عباس کیارستمی، عباس قادری
-                            </span>
+                            <div class="margin-top-bottom-4-16">
+                                    <span class="is-red font-12">پنل: </span><span class="font-12">کاوه یزدی‌فرد</span><span class="font-12 is-gray">/ مدیر دفتر نوآوری شهری</span>
+                            </div>
                         </div>
-                        <p class="font-12 is-gray is-bold">دیزاین سیستم</p>
-                    </div>
-                    <div class="schedule__box text-right min-height-200">
-                        <p  class="schedule__box__time" dir="ltr">12:15-12:45</p>
                         <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">عباس جدیدی</span><span class="font-12 is-gray">/ سلفی‌ترین دیزاینر دنیا</span>
+                            <div class="margin-top-bottom-4-16">
+                                <span class="font-12">حمید پور جم</span><span class="font-12 is-gray">/ تیم لیدر در کافه بازار</span>
+                            </div>
                         </div>
-                        <p class="font-12 is-gray is-bold">سلفی با بزرگان، یک قدم به جلو</p>
+                        <div class="margin-top-bottom-4-16">
+                            <div class="margin-top-bottom-4-16">
+                                <span class="font-12">رسام رستمی</span><span class="font-12 is-gray">/ مؤسس آژانس پارادایم</span>
+                            </div>
+                        </div>
+                        <div class="margin-top-bottom-4-16">
+                            <div class="margin-top-bottom-4-16">
+                                <span class="font-12">آرین مقبلی</span><span class="font-12 is-gray">/ سرپرست طراحی محصول تپ‌سی</span>
+                            </div>
+                        </div>
+                        <p class="font-12 is-gray is-bold">پنل سه وجهی</p>
                     </div>
+
                     <div class="schedule__breackPoint">
-                        <span class="schedule__breackPoint__desc">ناهار  /</span>
-                        <span class="schedule__breackPoint__time" dir="ltr">12:45-13:45</span>
+                        <span class="schedule__breackPoint__desc">وقت استراحت /</span>
+                        <span class="schedule__breackPoint__time" dir="ltr">12:00-12:20</span>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="schedule__box text-right min-height-273">
                         <h2 class="schedule__box__part">03</h2>
-                        <p class="schedule__box__time" dir="ltr">13:45-14:15</p>
+                        <p class="schedule__box__time" dir="ltr">12:20-12:40</p>
                         <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">آریو عبدی</span><span class="font-12 is-gray">/ اسکل‌ترین دیزاینر دنیا</span>
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">آرمان علی‌پور</span><span class="font-12 is-gray">/ موشن دیزاینر و انیماتور</span>
                         </div>
-                        <p class="font-12 is-gray is-bold">تصویرسازی به شکل نوین</p>
+                        <p class="font-12 is-gray is-bold">ساخت کلیپ از ۰ تا ۱۰۰</p>
                     </div>
                     <div class="schedule__box text-right min-height-200">
-                        <p  class="schedule__box__time" dir="ltr">14:15-14:45</p>
+                        <p  class="schedule__box__time" dir="ltr">12:50-13:20</p>
                         <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">ارائه: </span><span class="font-12">محمد غنایی</span><span class="font-12 is-gray">/ گزارشگرترین دیزاینر دنیا</span>
+                            <span class="is-red font-12">ارائه: </span><span class="font-12">هومن هاتفی</span><span class="font-12 is-gray">/ مدیر طراحی اسنپ و اسنپ‌تریپ</span>
                         </div>
-                        <p class="font-12 is-gray is-bold">ایران، استرالیا؛ سلام فرانسه</p>
+                        <p class="font-12 is-gray is-bold">سبک کردن بار سنگین پیدا کردن بهترین طراح</p>
                     </div>
-                    <div class="schedule__box text-right">
-                        <p  class="schedule__box__time" dir="ltr">14:15-14:45</p>
-                        <div class="margin-top-bottom-4-16">
-                            <span class="is-red font-12">پنل: </span>
-                            <span class="font-12">
-                                کیارش آمالی‌وند، جعفر هنان، رضا کلهر
-                                <br/>
-                                عباس کیارستمی، عباس قادری
-                            </span>
-                        </div>
-                        <p class="font-12 is-gray is-bold">ایران، استرالیا؛ سلام فرانسه</p>
+                    <div class="schedule__breackPoint">
+                        <span class="schedule__breackPoint__desc">سوت پایان  /</span>
+                        <span class="schedule__breackPoint__time" dir="ltr">14:00</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section> 
     <section class="game text-center" id="game">
         <div class="container">
             <div class="row">
@@ -425,24 +462,24 @@
         
             <div class="game__whyUs">
                 <div class="row">
-                    <div class="col-12">
-                            <h2 class="game__whyUs__details-temp-title">بلیط فروشی به زودی شروع میشه</h2>
-                            <h2 class="game__whyUs__details-temp-desc">برای اطلاع از زمان پیش‌فروش بلیط شبکه‌های اجتماعی ما رو دنبال کنید.</h2>   
-                    </div>
-                    <!-- <div class="col-12 col-md-9">
+                    <!-- <div class="col-12">
+                            <h2 class="game__whyUs__details-temp-title">امکان ثبت نام به زودی شروع میشه </h2>
+                            <h2 class="game__whyUs__details-temp-desc">برای اطلاع از زمان ثبت نام شبکه‌های اجتماعی ما را دنبال کنید.</h2>   
+                    </div> -->
+                     <div class="col-12 col-md-9">
                         <div class="game__whyUs__details">                            
                             <h4 class="game__whyUs__details__title">چرا شرکت کنم؟</h4>
                             <p class="game__whyUs__details__desc">تجربه روزی شاد در کنار بهترین‌‌ها و استفاده از تجربیات آن‌ها</p>
                             <p class="game__whyUs__details__desc">تقویت مهارت‌های مورد نیاز جهت رقابت در <span class="isGilroy">Dribbble</span> و جامعه طراحی دیجیتال</p>
                             <p class="game__whyUs__details__desc">شبکه سازی و گپ و گفتگو با سایر طراحان دیجیتال</p>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="col-12 align-self-end ">
-                        <!-- <a class="game__whyUs__byeTicket" href="https://evand.com/events/tehran-dribbble-meetup">خرید بلیط</a> -->
-                        <img src="images/dribbble-ball-black/dribbble-ball-black.png"
+                    <a class="game__whyUs__byeTicket" href="https://evand.com/events/tehran-dribbble-meetup">ثبت نام</a> 
+                        <!-- <img src="images/dribbble-ball-black/dribbble-ball-black.png"
                             srcset="images/dribbble-ball-black/dribbble-ball-black@2x.png 2x,
                                     images/dribbble-ball-black/dribbble-ball-black@3x.png 3x"
-                            class="game__whyUs__icon">
+                            class="game__whyUs__icon"> -->
                     </div>
                 </div>
             </div>
@@ -534,6 +571,13 @@
                                     images/sponsor/uneo@3x.png 3x"
                             class="sponsor__list__group__item__img">
                         </li>
+                        <li class="sponsor__list__group__item">
+                            <img src="images/sponsor/cu-bstudio.png"
+                            srcset="images/sponsor/cu-bstudio@2x.png 2x,
+                                    images/sponsor/cu-bstudio@3x.png 3x"
+                            class="sponsor__list__group__item__img">
+                        </li>
+
                     </ul>
                 </div>
                 <div class="col-12 text-center">
@@ -566,10 +610,15 @@
                         <div class="provide__item text-center">
                             <div class="provide__item__fig">
                                 <img  class="provide__item__fig__img"   src="images/holdingTeam/Danial.png">
-                                <span class="provide__item__fig__badge">@daneialS</span>
+                                <span class="provide__item__fig__badge">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">
+                                    <span class="provide__item__fig__badge__id">daneialS</span>
+                                </span>
                             </div>
                             <div class="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >دانیال صابونچی</h3>
+                                <h3 class="provide__item__title__name" >
+                                    دانیال صابونچی
+                                </h3>
                                 <div>
                                     <p class="provide__item__title__desc">برگزارکننده</p>
                                 </div>
@@ -581,10 +630,15 @@
                         <div class="provide__item text-center">
                             <div class="provide__item__fig">
                                 <img  class="provide__item__fig__img"   src="images/holdingTeam/Kiarash.png">
-                                <span class="provide__item__fig__badge">@kiawisherman</span>
+                                <span class="provide__item__fig__badge">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">
+                                    <span class="provide__item__fig__badge__id">kiawisherman</span>
+                                </span>
                             </div>
                             <div class="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >کیارش آمالی‌وند</h3>
+                                <h3 class="provide__item__title__name" >
+                                    کیارش آمالی‌وند
+                                </h3>
                                 <div>
                                     <p class="provide__item__title__desc">برگزارکننده</p>
                                 </div>
@@ -596,10 +650,15 @@
                         <div class="provide__item text-center">
                             <div class="provide__item__fig">
                                 <img  class="provide__item__fig__img"   src="images/holdingTeam/Ario.png">
-                                <span class="provide__item__fig__badge">@rhymoario</span>
+                                <div class="provide__item__fig__badge">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">
+                                    <span class="provide__item__fig__badge__id">rhymoario</span>
+                                </div>
                             </div>
                             <div class="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >آریو عبدی</h3>
+                                <h3 class="provide__item__title__name" >
+                                    آریو عبدی
+                                </h3>
                                 <div>
                                     <p class="provide__item__title__desc">برگزارکننده</p>
                                 </div>
@@ -611,10 +670,15 @@
                         <div class="provide__item text-center">
                             <div class="provide__item__fig">
                                 <img  class="provide__item__fig__img"   src="images/holdingTeam/Nejat-etehadi.png">
-                                <!-- <span class="provide__item__fig__badge">@nejatt</span> -->
+                                <!-- <span class="provide__item__fig__badge__social">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">
+                                    @nejatt</sp
+                                    an> -->
                             </div>
-                            <div clas`s="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >نجات اتحادی</h3>
+                            <div class="provide__item__title text-right">
+                                <h3 class="provide__item__title__name" >
+                                    نجات اتحادی
+                                </h3>
                                 <div>
                                     <p class="provide__item__title__desc">توسعه تجاری</p>
                                 </div>
@@ -628,10 +692,15 @@
                         <div class="provide__item text-center">
                             <div class="provide__item__fig">
                                 <img  class="provide__item__fig__img"   src="images/holdingTeam/Nasrin.png">
-                                <span class="provide__item__fig__badge">@mamannasrin</span>
+                                <div class="provide__item__fig__badge">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/instagram.svg">                                    
+                                    <span class="provide__item__fig__badge__id">ntp64</span>
+                                </div>
                             </div>
                             <div class="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >نسرین طاهری پور</h3>
+                                <h3 class="provide__item__title__name" >
+                                    نسرین طاهری پور
+                                </h3>
                                 <div>
                                     <p class="provide__item__title__desc">شبکه‌های اجتماعی</p>
                                 </div>
@@ -643,10 +712,15 @@
                         <div class="provide__item text-center">
                             <div class="provide__item__fig">
                                 <img  class="provide__item__fig__img"   src="images/holdingTeam/Arash.png">
-                                <span class="provide__item__fig__badge">@arashsoleimaani</span>
+                                <div class="provide__item__fig__badge">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">                                    
+                                    <span class="provide__item__fig__badge__id">arashsoleimaani</span>
+                                </div>
                             </div>
                             <div class="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >آرش سلیمانی</h3>
+                                <h3 class="provide__item__title__name" >
+                                    آرش سلیمانی
+                                </h3>
                                 <div>
                                     <p class="provide__item__title__desc">روابط‌عمومی</p>
                                 </div>
@@ -658,10 +732,15 @@
                         <div class="provide__item text-center">
                             <div class="provide__item__fig">
                                 <img  class="provide__item__fig__img"   src="images/holdingTeam/Arezoo.png">
-                                <span class="provide__item__fig__badge">@arezookn</span>
+                                <div class="provide__item__fig__badge">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">                                    
+                                    <span class="provide__item__fig__badge__id">arezookn</span>                                    
+                                </div>
                             </div>
                             <div class="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >آرزو کارگرنوین</h3>
+                                <h3 class="provide__item__title__name" >
+                                    آرزو کارگرنوین
+                                </h3>
                                 <div>
                                     <p class="provide__item__title__desc">عکاسی و رسانه</p>
                                 </div>
@@ -672,11 +751,16 @@
                     <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl margin-b-40">
                         <div class="provide__item text-center">
                             <div class="provide__item__fig">
-                                <img  class="provide__item__fig__img"   src="images/holdingTeam/empty.png">
-                                <span class="provide__item__fig__badge">@amir_h_eskandar</span>
+                                <img  class="provide__item__fig__img"   src="images/holdingTeam/amir.png">
+                                <div class="provide__item__fig__badge">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/instagram.svg">                                    
+                                    <span class="provide__item__fig__badge__id">amir_h_eskandar</span>                                    
+                                </div>
                             </div>
                             <div class="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >امیر اسکندر</h3>
+                                <h3 class="provide__item__title__name" >
+                                    امیر اسکندر
+                                </h3>
                                 <div>
                                     <p class="provide__item__title__desc">مدیر اجرایی</p>
                                 </div>
@@ -687,11 +771,16 @@
                     <div class="size col-12 col-sm-6 col-md-4 col-lg-3 col-xl margin-b-40">
                         <div class="provide__item text-center">
                             <div class="provide__item__fig">
-                                <img  class="provide__item__fig__img"   src="images/holdingTeam/empty.png">
-                                <span class="provide__item__fig__badge">@Arashdma</span>
+                                <img  class="provide__item__fig__img"   src="images/holdingTeam/Lil--arash.png">
+                                <div class="provide__item__fig__badge">
+                                    <img class="provide__item__fig__badge__social" src="images/holdingTeam/twitter.svg">                                    
+                                    <span class="provide__item__fig__badge__id">Arashdma</span>                                    
+                                </div>
                             </div>
                             <div class="provide__item__title text-right">
-                                <h3 class="provide__item__title__name" >آرش دامن افشان</h3>
+                                <h3 class="provide__item__title__name" >
+                                    آرش دامن افشان
+                                </h3>
                                 <div>
                                     <p class="provide__item__title__desc">دستیار اجرایی</p>
                                 </div>
@@ -710,9 +799,13 @@
                 srcset="images/pin/pin@2x.png 2x,
                 images/pin/pin@3x.png 3x">
                 <div class="map__address">
-                    بلوار ارتش، خیابان ابوالفضل صمیع،
+                    تهران انتهای شمالی اتوبان صیاد شیرازی،
                     <br>
-                    باغ بهشت، پارادایس‌ هاب
+                    خیابان صنایع، خیابان گلزار جنوبی، 
+                    <br>
+                    خیابان لادن شرقی، ۱۲ متری ولیعصر،
+                    <br>
+                    انتهای بن بست قائم، کارخانه نوآوری های‌وی
                 </div>
             </div>
             <div>
@@ -732,7 +825,7 @@
             </div>
         </div>
         <div class="map__link">
-            <a class="map__link__a" href="https://goo.gl/maps/dHSRtbARQjG2">مسیریابی بر روی نقشه</a>
+            <a class="map__link__a" href="https://goo.gl/maps/Zdfy33d1E362">مسیریابی بر روی نقشه</a>
         </div>
         <!-- <div class="map__dribbble">
             <img class="map__dribbble__img" 
@@ -740,18 +833,26 @@
                 srcset="images/dribbble-logo/dribbble-logo@2x.png 2x,
                         images/dribbble-logo/dribbble-logo@3x.png 3x">
         </div> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3235.9011046472706!2d51.4907835!3d35.8023611!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e04e016d77155%3A0x25a6936564820bb0!2sbadgehe+Behesht!5e0!3m2!1sen!2s!4v1542360130561" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>    </section>
-        <!-- <div id="map"  width="100%" height="600"></div>
-        <script>
-          var map;
-          function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: -34.397, lng: 150.644},
-              zoom: 8
-            });
-          }
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1144.2750180343482!2d51.490278291323555!3d35.787693516189236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e04ebdfc83111%3A0xbe10399d9a888005!2zMzXCsDQ3JzE2LjMiTiA1McKwMjknMjQuNCJF!5e0!3m2!1sen!2s!4v1545771042969" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d1618.2534126719415!2d51.48941701476736!3d35.78748905043391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e6!4m4!2s35.704577%2C51.430292!3m2!1d35.704577!2d51.430291999999994!4m3!3m2!1d35.787867999999996!2d51.490123!5e0!3m2!1sen!2sus!4v1545769413496"width="100%" height="600"  frameborder="0" style="border:0" allowfullscreen></iframe> -->
+      
+      <!-- <script>
+         function initMap() {
+                var myLatLng = {lat: 35.787868, lng: 51.490123};
+
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: myLatLng
+                });
+
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Dribbble'
+                });
+                }
         </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClMVqkqb4uH0gscQbQQkwVMPIYSIsdUqI&callback=initMap"
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClMVqkqb4uH0gscQbQQkwVMPIYSIsdUqI&callback=initMap"
         async defer></script> -->
     </section>
 
